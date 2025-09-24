@@ -1,0 +1,980 @@
+{
+  "semantic_tokens": {
+    "light": {
+      "color": {
+        "information_chip": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0500)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#292929"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0900)"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0600)"
+            }
+          }
+        },
+        "cards": {
+          "default": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.8000)"
+              },
+              "main_transparent": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              }
+            },
+            "divider": {
+              "background": {
+                "main": {
+                  "value": "#e6e3de"
+                }
+              }
+            }
+          },
+          "device_management": {
+            "buttons": {
+              "switch": {
+                "background": {
+                  "main": {
+                    "value": "rgba(0, 0, 0, 0.3600)"
+                  }
+                },
+                "foreground": {
+                  "main": {
+                    "value": "#ffffff"
+                  }
+                }
+              }
+            },
+            "user_panel": {
+              "background": {
+                "main": {
+                  "value": "rgba(255, 255, 255, 0.5500)"
+                }
+              },
+              "shadow": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.2000)"
+                }
+              },
+              "foreground": {
+                "main": {
+                  "value": "#292929"
+                },
+                "description": {
+                  "value": "#9a9a98"
+                }
+              }
+            },
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.8000)"
+              },
+              "main_transparent": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              }
+            },
+            "divider": {
+              "background": {
+                "main": {
+                  "value": "#e6e3de"
+                }
+              }
+            }
+          }
+        },
+        "fills": {
+          "foreground": {
+            "main": {
+              "value": "#292929"
+            },
+            "description": {
+              "value": "#9a9a98"
+            }
+          },
+          "background": {
+            "main": {
+              "value": "#f2eee7"
+            },
+            "main_transparent": {
+              "value": "rgba(242, 238, 231, 0.0000)"
+            },
+            "faded": {
+              "value": "#b7b8ba"
+            }
+          }
+        },
+        "progress_bar": {
+          "background": {
+            "main": {
+              "value": "#e6e6e6"
+            },
+            "active": {
+              "value": "#257af4"
+            }
+          }
+        },
+        "toggle": {
+          "background": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0600)"
+            },
+            "active": {
+              "value": "#18c95c"
+            },
+            "knob": {
+              "value": "#ffffff"
+            }
+          }
+        },
+        "night_mode": {
+          "background": {
+            "default": {
+              "main": {
+                "value": "#040b13"
+              },
+              "gradient_0": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              }
+            },
+            "cool": {
+              "main": {
+                "value": "#020813"
+              },
+              "gradient_0": {
+                "value": "rgba(37, 122, 244, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(37, 122, 244, 0.1600)"
+              }
+            },
+            "equilibrium": {
+              "main": {
+                "value": "#070a17"
+              },
+              "gradient_0": {
+                "value": "rgba(103, 53, 255, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(103, 53, 255, 0.1800)"
+              }
+            },
+            "warm": {
+              "main": {
+                "value": "#0a0a0a"
+              },
+              "gradient_0": {
+                "value": "rgba(231, 30, 30, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(231, 30, 30, 0.1400)"
+              }
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#f9f8f7"
+            },
+            "description": {
+              "value": "rgba(255, 255, 255, 0.4800)"
+            }
+          },
+          "buttons": {
+            "temperature_control": {
+              "foreground": {
+                "main": {
+                  "value": "#f9f8f7"
+                },
+                "disabled": {
+                  "value": "rgba(255, 255, 255, 0.7500)"
+                }
+              },
+              "background": {
+                "active": {
+                  "value": "rgba(255, 255, 255, 0.0600)"
+                }
+              }
+            },
+            "power": {
+              "background": {
+                "main": {
+                  "value": "rgba(255, 255, 255, 0.1200)"
+                },
+                "active": {
+                  "value": "rgba(255, 255, 255, 0.2800)"
+                }
+              },
+              "border": {
+                "active": {
+                  "value": "rgba(255, 255, 255, 0.2000)"
+                }
+              },
+              "foreground": {
+                "main": {
+                  "value": "#f9f8f7"
+                }
+              },
+              "shadow": {
+                "active": {
+                  "value": "rgba(255, 255, 255, 0.2000)"
+                }
+              }
+            }
+          },
+          "radio_group": {
+            "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              },
+              "description": {
+                "main": {
+                  "value": "rgba(255, 255, 255, 0.3600)"
+                },
+                "active": {
+                  "value": "#f9f8f7"
+                }
+              }
+            },
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              },
+              "active": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              }
+            }
+          }
+        },
+        "temperature": {
+          "foreground": {
+            "cool": {
+              "value": "#5374e6"
+            },
+            "warm": {
+              "value": "#d05252"
+            },
+            "equilibrium": {
+              "value": "#6735ff"
+            }
+          },
+          "overlay": {
+            "cool": {
+              "value": "rgba(255, 255, 255, 0.0000)"
+            },
+            "warm": {
+              "value": "rgba(255, 255, 255, 0.0000)"
+            },
+            "equilibrium": {
+              "value": "rgba(255, 255, 255, 0.0000)"
+            }
+          },
+          "background": {
+            "cool": {
+              "value": "#5e9aeb"
+            },
+            "warm": {
+              "value": "#d85355"
+            },
+            "equilibrium": {
+              "value": "#ffffff"
+            }
+          }
+        },
+        "temperature_control": {
+          "foreground": {
+            "active": {
+              "value": "#292929"
+            },
+            "default": {
+              "value": "#3f3f46"
+            },
+            "disabled": {
+              "value": "#71717a"
+            }
+          }
+        },
+        "radio_group": {
+          "background": {
+            "main": {
+              "value": "#e4e0d9"
+            },
+            "selected": {
+              "value": "rgba(255, 255, 255, 0.8000)"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "#e6e6e6"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#292929"
+            },
+            "description": {
+              "main": {
+                "value": "#292929"
+              },
+              "active": {
+                "value": "#9a9a98"
+              }
+            }
+          }
+        },
+        "mattress_tooltip": {
+          "background": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.7000)"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.2000)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#ffffff"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.2000)"
+            },
+            "inner_top": {
+              "value": "rgba(255, 255, 255, 0.2000)"
+            },
+            "inner_bottom": {
+              "value": "rgba(0, 0, 0, 0.2000)"
+            }
+          }
+        },
+        "buttons": {
+          "primary": {
+            "background": {
+              "main": {
+                "value": "#f9f8f7"
+              },
+              "disabled": {
+                "value": "#e6e3de"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "disabled": {
+                "value": "#9a9a98"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              }
+            }
+          },
+          "tertiary": {
+            "background": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0600)"
+              },
+              "disabled": {
+                "value": "#e6e3de"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "disabled": {
+                "value": "#9a9a98"
+              }
+            }
+          },
+          "power": {
+            "background": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0600)"
+              },
+              "disabled": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              },
+              "active": {
+                "value": "#ffffff"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "active": {
+                "value": "#18c95c"
+              },
+              "disabled": {
+                "value": "#71717a"
+              }
+            },
+            "shadow": {
+              "active": {
+                "value": "rgba(47, 212, 88, 0.2000)"
+              },
+              "active_inner": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              },
+              "inner": {
+                "value": "rgba(0, 0, 0, 0.0400)"
+              }
+            }
+          },
+          "icon": {
+            "background": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0400)"
+              }
+            },
+            "shadow": {
+              "inner": {
+                "value": "rgba(0, 0, 0, 0.0400)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "disabled": {
+                "value": "#71717a"
+              }
+            }
+          }
+        }
+      }
+    },
+    "dark": {
+      "color": {
+        "information_chip": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#ffffff"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0000)"
+            }
+          }
+        },
+        "cards": {
+          "default": {
+            "background": {
+              "main": {
+                "value": "#10171f"
+              },
+              "main_transparent": {
+                "value": "rgba(16, 23, 31, 0.0000)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              }
+            },
+            "divider": {
+              "background": {
+                "main": {
+                  "value": "#2c3b4d"
+                }
+              }
+            }
+          },
+          "device_management": {
+            "buttons": {
+              "switch": {
+                "background": {
+                  "main": {
+                    "value": "rgba(121, 134, 149, 0.5500)"
+                  }
+                },
+                "foreground": {
+                  "main": {
+                    "value": "#ffffff"
+                  }
+                }
+              }
+            },
+            "user_panel": {
+              "background": {
+                "main": {
+                  "value": "rgba(121, 134, 149, 0.5500)"
+                }
+              },
+              "shadow": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.2000)"
+                }
+              },
+              "foreground": {
+                "main": {
+                  "value": "#f9f8f7"
+                },
+                "description": {
+                  "value": "rgba(255, 255, 255, 0.7000)"
+                }
+              }
+            },
+            "background": {
+              "main": {
+                "value": "#10171f"
+              },
+              "main_transparent": {
+                "value": "rgba(16, 23, 31, 0.0000)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              }
+            },
+            "divider": {
+              "background": {
+                "main": {
+                  "value": "#2c3b4d"
+                }
+              }
+            }
+          }
+        },
+        "fills": {
+          "foreground": {
+            "main": {
+              "value": "#f9f8f7"
+            },
+            "description": {
+              "value": "#798695"
+            }
+          },
+          "background": {
+            "main": {
+              "value": "#040b13"
+            },
+            "main_transparent": {
+              "value": "rgba(4, 11, 19, 0.0000)"
+            },
+            "faded": {
+              "value": "#2c3b4d"
+            }
+          }
+        },
+        "progress_bar": {
+          "background": {
+            "main": {
+              "value": "#292929"
+            },
+            "active": {
+              "value": "#4c92f6"
+            }
+          }
+        },
+        "toggle": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.1200)"
+            },
+            "active": {
+              "value": "#2ac85c"
+            },
+            "knob": {
+              "value": "#ffffff"
+            }
+          }
+        },
+        "night_mode": {
+          "background": {
+            "default": {
+              "main": {
+                "value": "#040b13"
+              },
+              "gradient_0": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              }
+            },
+            "cool": {
+              "main": {
+                "value": "#020813"
+              },
+              "gradient_0": {
+                "value": "rgba(37, 122, 244, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(37, 122, 244, 0.1600)"
+              }
+            },
+            "equilibrium": {
+              "main": {
+                "value": "#070a17"
+              },
+              "gradient_0": {
+                "value": "rgba(103, 53, 255, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(103, 53, 255, 0.1800)"
+              }
+            },
+            "warm": {
+              "main": {
+                "value": "#0a0a0a"
+              },
+              "gradient_0": {
+                "value": "rgba(231, 30, 30, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(231, 30, 30, 0.1400)"
+              }
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#f9f8f7"
+            },
+            "description": {
+              "value": "rgba(255, 255, 255, 0.4800)"
+            }
+          },
+          "buttons": {
+            "temperature_control": {
+              "foreground": {
+                "main": {
+                  "value": "#f9f8f7"
+                },
+                "disabled": {
+                  "value": "rgba(255, 255, 255, 0.7500)"
+                }
+              },
+              "background": {
+                "active": {
+                  "value": "rgba(255, 255, 255, 0.0600)"
+                }
+              }
+            },
+            "power": {
+              "background": {
+                "main": {
+                  "value": "rgba(255, 255, 255, 0.1200)"
+                },
+                "active": {
+                  "value": "rgba(255, 255, 255, 0.2800)"
+                }
+              },
+              "border": {
+                "active": {
+                  "value": "rgba(255, 255, 255, 0.2000)"
+                }
+              },
+              "foreground": {
+                "main": {
+                  "value": "#f9f8f7"
+                }
+              },
+              "shadow": {
+                "active": {
+                  "value": "rgba(255, 255, 255, 0.2000)"
+                }
+              }
+            }
+          },
+          "radio_group": {
+            "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              },
+              "description": {
+                "main": {
+                  "value": "rgba(255, 255, 255, 0.3600)"
+                },
+                "active": {
+                  "value": "#f9f8f7"
+                }
+              }
+            },
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              },
+              "active": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              }
+            }
+          }
+        },
+        "temperature": {
+          "foreground": {
+            "cool": {
+              "value": "#72aeff"
+            },
+            "warm": {
+              "value": "#f07171"
+            },
+            "equilibrium": {
+              "value": "#7247ff"
+            }
+          },
+          "overlay": {
+            "cool": {
+              "value": "#2d5ea4"
+            },
+            "warm": {
+              "value": "#a13d3f"
+            },
+            "equilibrium": {
+              "value": "#6b47b6"
+            }
+          },
+          "background": {
+            "cool": {
+              "value": "#4c92f6"
+            },
+            "warm": {
+              "value": "#d85355"
+            },
+            "equilibrium": {
+              "value": "#ffffff"
+            }
+          }
+        },
+        "temperature_control": {
+          "foreground": {
+            "active": {
+              "value": "#ffffff"
+            },
+            "default": {
+              "value": "#e6e6e6"
+            },
+            "disabled": {
+              "value": "#adadad"
+            }
+          }
+        },
+        "radio_group": {
+          "background": {
+            "main": {
+              "value": "#10171f"
+            },
+            "selected": {
+              "value": "#222d3b"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#ffffff"
+            },
+            "description": {
+              "main": {
+                "value": "#798695"
+              },
+              "active": {
+                "value": "#ffffff"
+              }
+            }
+          }
+        },
+        "mattress_tooltip": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.8000)"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.3600)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#292929"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.2000)"
+            },
+            "inner_top": {
+              "value": "rgba(255, 255, 255, 0.2000)"
+            },
+            "inner_bottom": {
+              "value": "rgba(0, 0, 0, 0.2800)"
+            }
+          }
+        },
+        "buttons": {
+          "primary": {
+            "background": {
+              "main": {
+                "value": "#404d60"
+              },
+              "disabled": {
+                "value": "#181f28"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              },
+              "disabled": {
+                "value": "#7c828d"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(64, 77, 96, 0.1500)"
+              }
+            }
+          },
+          "tertiary": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              },
+              "disabled": {
+                "value": "#181f28"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              },
+              "disabled": {
+                "value": "#798695"
+              }
+            }
+          },
+          "power": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              },
+              "disabled": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              },
+              "active": {
+                "value": "rgba(58, 83, 75, 0.5000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              },
+              "active": {
+                "value": "#2ac85c"
+              },
+              "disabled": {
+                "value": "#adadad"
+              }
+            },
+            "shadow": {
+              "active": {
+                "value": "rgba(2, 204, 52, 0.1000)"
+              },
+              "active_inner": {
+                "value": "rgba(2, 204, 52, 0.1000)"
+              },
+              "inner": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            }
+          },
+          "icon": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              }
+            },
+            "shadow": {
+              "inner": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              },
+              "disabled": {
+                "value": "#adadad"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
