@@ -2,6 +2,16 @@
   "semantic_tokens": {
     "light": {
       "blur": {
+        "information_chip": {
+          "main": {
+            "value": "12px"
+          }
+        },
+        "temperature_control": {
+          "overlay": {
+            "value": "72px"
+          }
+        },
         "cards": {
           "default": {
             "main": {
@@ -17,11 +27,6 @@
                 "value": "10px"
               }
             }
-          }
-        },
-        "temperature_control": {
-          "overlay": {
-            "value": "72px"
           }
         },
         "buttons": {
@@ -41,11 +46,6 @@
             }
           }
         },
-        "information_chip": {
-          "main": {
-            "value": "12px"
-          }
-        },
         "mattress_tooltip": {
           "main": {
             "value": "10px"
@@ -53,6 +53,41 @@
         }
       },
       "color": {
+        "progress": {
+          "circular": {
+            "background": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              },
+              "active": {
+                "value": "#4c92f6"
+              }
+            }
+          },
+          "bar": {
+            "background": {
+              "main": {
+                "value": "#e6e6e6"
+              },
+              "active": {
+                "value": "#4c92f6"
+              }
+            }
+          }
+        },
+        "toggle": {
+          "background": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0600)"
+            },
+            "active": {
+              "value": "#18c95c"
+            },
+            "knob": {
+              "value": "#ffffff"
+            }
+          }
+        },
         "information_chip": {
           "background": {
             "main": {
@@ -171,15 +206,115 @@
                 }
               }
             }
+          },
+          "sleep_test": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.8000)"
+              },
+              "main_transparent": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              },
+              "gradient_0": {
+                "value": "rgba(255, 255, 255, 0.9300)"
+              },
+              "gradient_100": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              }
+            }
+          },
+          "insight_card": {
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "icon": {
+                "value": "#257af4"
+              }
+            },
+            "background": {
+              "main": {
+                "value": "rgba(37, 122, 244, 0.0800)"
+              }
+            }
           }
         },
-        "progress_bar": {
-          "background": {
-            "main": {
-              "value": "#e6e6e6"
+        "inputs": {
+          "text_input": {
+            "border": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              },
+              "active": {
+                "value": "#72aeff"
+              },
+              "disabled": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              },
+              "error": {
+                "value": "#f74847"
+              }
             },
-            "active": {
-              "value": "#257af4"
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "placeholder": {
+                "value": "#9a9a98"
+              },
+              "disabled": {
+                "value": "rgba(0, 0, 0, 0.2800)"
+              }
+            }
+          },
+          "radio": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              },
+              "active": {
+                "value": "#257af4"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              }
+            }
+          },
+          "checkbox": {
+            "background": {
+              "active": {
+                "value": "#257af4"
+              },
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              }
             }
           }
         },
@@ -196,24 +331,56 @@
             "main": {
               "value": "#f2eee7"
             },
+            "overlay": {
+              "value": "rgba(0, 0, 0, 0.2000)"
+            },
             "main_transparent": {
               "value": "rgba(242, 238, 231, 0.0000)"
             },
             "faded": {
               "value": "#b7b8ba"
             }
-          }
-        },
-        "toggle": {
-          "background": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0600)"
+          },
+          "primary": {
+            "foreground": {
+              "main": {
+                "value": "#257af4"
+              }
             },
-            "active": {
-              "value": "#18c95c"
-            },
-            "knob": {
-              "value": "#ffffff"
+            "background": {
+              "main": {
+                "value": "#257af4"
+              },
+              "main_transparent": {
+                "value": "rgba(37, 122, 244, 0.0000)"
+              }
+            }
+          },
+          "destructive": {
+            "foreground": {
+              "main": {
+                "value": "#f74847"
+              }
+            }
+          },
+          "white": {
+            "value": "#ffffff"
+          },
+          "accent": {
+            "value": "#257af4"
+          },
+          "positive": {
+            "foreground": {
+              "main": {
+                "value": "#18c95c"
+              }
+            }
+          },
+          "information": {
+            "foreground": {
+              "main": {
+                "value": "#ff9a3c"
+              }
             }
           }
         },
@@ -314,8 +481,11 @@
               }
             }
           },
-          "radio_group": {
+          "segmented_picker": {
             "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              },
               "description": {
                 "main": {
                   "value": "rgba(255, 255, 255, 0.3600)"
@@ -323,9 +493,6 @@
                 "active": {
                   "value": "#f9f8f7"
                 }
-              },
-              "main": {
-                "value": "#f9f8f7"
               }
             },
             "background": {
@@ -386,7 +553,7 @@
             }
           }
         },
-        "radio_group": {
+        "segmented_picker": {
           "background": {
             "main": {
               "value": "#e4e0d9"
@@ -441,17 +608,17 @@
                 "value": "rgba(0, 0, 0, 0.0600)"
               }
             },
-            "shadow": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.0900)"
-              }
-            },
             "foreground": {
               "main": {
                 "value": "#ffffff"
               },
               "disabled": {
                 "value": "#9a9a98"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
               }
             }
           },
@@ -540,6 +707,59 @@
                 "value": "#9a9a98"
               }
             }
+          },
+          "destructive": {
+            "background": {
+              "main": {
+                "value": "rgba(227, 18, 14, 0.7600)"
+              },
+              "disabled": {
+                "value": "rgba(0, 0, 0, 0.0600)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              },
+              "disabled": {
+                "value": "#9a9a98"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              }
+            }
+          },
+          "primary_uncontained": {
+            "background": {
+              "selected": {
+                "value": "rgba(37, 122, 244, 0.1000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#257af4"
+              },
+              "disabled": {
+                "value": "#9a9a98"
+              }
+            }
+          },
+          "destructive_uncontained": {
+            "background": {
+              "selected": {
+                "value": "rgba(243, 39, 36, 0.1000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#f32724"
+              },
+              "disabled": {
+                "value": "#9a9a98"
+              }
+            }
           }
         }
       },
@@ -571,22 +791,16 @@
               "blur": {
                 "value": "8px"
               }
-            },
-            "inner": {
-              "y": {
-                "value": "-2px"
-              },
-              "blur": {
-                "value": "6px"
-              }
             }
           },
           "primary": {
-            "y": {
-              "value": "8px"
-            },
-            "blur": {
-              "value": "10px"
+            "drop": {
+              "y": {
+                "value": "8px"
+              },
+              "blur": {
+                "value": "10px"
+              }
             }
           }
         },
@@ -615,11 +829,13 @@
           },
           "device_management": {
             "user_panel": {
-              "y": {
-                "value": "3px"
-              },
-              "blur": {
-                "value": "6px"
+              "drop": {
+                "y": {
+                  "value": "3px"
+                },
+                "blur": {
+                  "value": "6px"
+                }
               }
             },
             "drop": {
@@ -675,6 +891,16 @@
     },
     "dark": {
       "blur": {
+        "information_chip": {
+          "main": {
+            "value": "12px"
+          }
+        },
+        "temperature_control": {
+          "overlay": {
+            "value": "72px"
+          }
+        },
         "cards": {
           "default": {
             "main": {
@@ -690,11 +916,6 @@
                 "value": "10px"
               }
             }
-          }
-        },
-        "temperature_control": {
-          "overlay": {
-            "value": "72px"
           }
         },
         "buttons": {
@@ -714,11 +935,6 @@
             }
           }
         },
-        "information_chip": {
-          "main": {
-            "value": "12px"
-          }
-        },
         "mattress_tooltip": {
           "main": {
             "value": "10px"
@@ -726,6 +942,41 @@
         }
       },
       "color": {
+        "progress": {
+          "circular": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              },
+              "active": {
+                "value": "#72aeff"
+              }
+            }
+          },
+          "bar": {
+            "background": {
+              "main": {
+                "value": "#292929"
+              },
+              "active": {
+                "value": "#72aeff"
+              }
+            }
+          }
+        },
+        "toggle": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.1200)"
+            },
+            "active": {
+              "value": "#2ac85c"
+            },
+            "knob": {
+              "value": "#ffffff"
+            }
+          }
+        },
         "information_chip": {
           "background": {
             "main": {
@@ -844,15 +1095,115 @@
                 }
               }
             }
+          },
+          "sleep_test": {
+            "background": {
+              "main": {
+                "value": "#10171f"
+              },
+              "main_transparent": {
+                "value": "rgba(16, 23, 31, 0.0000)"
+              },
+              "gradient_0": {
+                "value": "rgba(16, 23, 31, 0.7900)"
+              },
+              "gradient_100": {
+                "value": "rgba(16, 23, 31, 0.0000)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              }
+            }
+          },
+          "insight_card": {
+            "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              },
+              "icon": {
+                "value": "#4c92f6"
+              }
+            },
+            "background": {
+              "main": {
+                "value": "rgba(76, 146, 246, 0.1300)"
+              }
+            }
           }
         },
-        "progress_bar": {
-          "background": {
-            "main": {
-              "value": "#292929"
+        "inputs": {
+          "text_input": {
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.2000)"
+              },
+              "active": {
+                "value": "#4c92f6"
+              },
+              "disabled": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              },
+              "error": {
+                "value": "#fa6a6a"
+              }
             },
-            "active": {
-              "value": "#4c92f6"
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              },
+              "placeholder": {
+                "value": "rgba(255, 255, 255, 0.4800)"
+              },
+              "disabled": {
+                "value": "rgba(255, 255, 255, 0.3600)"
+              }
+            }
+          },
+          "radio": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              },
+              "active": {
+                "value": "#4c92f6"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.2000)"
+              }
+            }
+          },
+          "checkbox": {
+            "background": {
+              "active": {
+                "value": "#4c92f6"
+              },
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.2000)"
+              }
             }
           }
         },
@@ -869,24 +1220,56 @@
             "main": {
               "value": "#040b13"
             },
+            "overlay": {
+              "value": "rgba(0, 0, 0, 0.2800)"
+            },
             "main_transparent": {
               "value": "rgba(4, 11, 19, 0.0000)"
             },
             "faded": {
               "value": "#2c3b4d"
             }
-          }
-        },
-        "toggle": {
-          "background": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.1200)"
+          },
+          "primary": {
+            "foreground": {
+              "main": {
+                "value": "#4c92f6"
+              }
             },
-            "active": {
-              "value": "#2ac85c"
-            },
-            "knob": {
-              "value": "#ffffff"
+            "background": {
+              "main": {
+                "value": "#4c92f6"
+              },
+              "main_transparent": {
+                "value": "rgba(76, 146, 246, 0.0000)"
+              }
+            }
+          },
+          "destructive": {
+            "foreground": {
+              "main": {
+                "value": "#fa6a6a"
+              }
+            }
+          },
+          "white": {
+            "value": "#ffffff"
+          },
+          "accent": {
+            "value": "#4c92f6"
+          },
+          "positive": {
+            "foreground": {
+              "main": {
+                "value": "#2ac85c"
+              }
+            }
+          },
+          "information": {
+            "foreground": {
+              "main": {
+                "value": "#ffab62"
+              }
             }
           }
         },
@@ -987,8 +1370,11 @@
               }
             }
           },
-          "radio_group": {
+          "segmented_picker": {
             "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              },
               "description": {
                 "main": {
                   "value": "rgba(255, 255, 255, 0.3600)"
@@ -996,9 +1382,6 @@
                 "active": {
                   "value": "#f9f8f7"
                 }
-              },
-              "main": {
-                "value": "#f9f8f7"
               }
             },
             "background": {
@@ -1020,7 +1403,7 @@
               "value": "#f07171"
             },
             "equilibrium": {
-              "value": "#7247ff"
+              "value": "#a084ff"
             }
           },
           "overlay": {
@@ -1059,7 +1442,7 @@
             }
           }
         },
-        "radio_group": {
+        "segmented_picker": {
           "background": {
             "main": {
               "value": "#10171f"
@@ -1114,17 +1497,17 @@
                 "value": "rgba(16, 23, 31, 0.7000)"
               }
             },
-            "shadow": {
-              "main": {
-                "value": "rgba(64, 77, 96, 0.1500)"
-              }
-            },
             "foreground": {
               "main": {
                 "value": "#deebfe"
               },
               "disabled": {
                 "value": "#7c828d"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(64, 77, 96, 0.1500)"
               }
             }
           },
@@ -1213,6 +1596,59 @@
                 "value": "#7c828d"
               }
             }
+          },
+          "destructive": {
+            "background": {
+              "main": {
+                "value": "rgba(189, 18, 14, 0.7000)"
+              },
+              "disabled": {
+                "value": "rgba(16, 23, 31, 0.7000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#f5f1f1"
+              },
+              "disabled": {
+                "value": "#7c828d"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(64, 77, 96, 0.1500)"
+              }
+            }
+          },
+          "primary_uncontained": {
+            "background": {
+              "selected": {
+                "value": "rgba(76, 146, 246, 0.1000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#4c92f6"
+              },
+              "disabled": {
+                "value": "#7c828d"
+              }
+            }
+          },
+          "destructive_uncontained": {
+            "background": {
+              "selected": {
+                "value": "rgba(247, 72, 71, 0.1000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#f74847"
+              },
+              "disabled": {
+                "value": "#7c828d"
+              }
+            }
           }
         }
       },
@@ -1244,22 +1680,16 @@
               "blur": {
                 "value": "8px"
               }
-            },
-            "inner": {
-              "y": {
-                "value": "-2px"
-              },
-              "blur": {
-                "value": "6px"
-              }
             }
           },
           "primary": {
-            "y": {
-              "value": "6px"
-            },
-            "blur": {
-              "value": "12px"
+            "drop": {
+              "y": {
+                "value": "6px"
+              },
+              "blur": {
+                "value": "12px"
+              }
             }
           }
         },
@@ -1288,11 +1718,13 @@
           },
           "device_management": {
             "user_panel": {
-              "y": {
-                "value": "3px"
-              },
-              "blur": {
-                "value": "6px"
+              "drop": {
+                "y": {
+                  "value": "3px"
+                },
+                "blur": {
+                  "value": "6px"
+                }
               }
             },
             "drop": {
