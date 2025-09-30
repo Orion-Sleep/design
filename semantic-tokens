@@ -1,57 +1,6 @@
 {
   "semantic_tokens": {
     "light": {
-      "blur": {
-        "buttons": {
-          "icon": {
-            "main": {
-              "value": "20px"
-            }
-          },
-          "secondary": {
-            "main": {
-              "value": "32px"
-            }
-          },
-          "tertiary": {
-            "main": {
-              "value": "32px"
-            }
-          }
-        },
-        "cards": {
-          "default": {
-            "main": {
-              "value": "16px"
-            }
-          },
-          "device-management": {
-            "main": {
-              "value": "16px"
-            },
-            "user_panel": {
-              "main": {
-                "value": "10px"
-              }
-            }
-          }
-        },
-        "information_chip": {
-          "main": {
-            "value": "12px"
-          }
-        },
-        "temperature_control": {
-          "overlay": {
-            "value": "72px"
-          }
-        },
-        "mattress_tooltip": {
-          "main": {
-            "value": "10px"
-          }
-        }
-      },
       "color": {
         "progress": {
           "circular": {
@@ -117,17 +66,17 @@
             }
           },
           "radio": {
+            "background": {
+              "active": {
+                "value": "#257af4"
+              },
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              }
+            },
             "foreground": {
               "main": {
                 "value": "#ffffff"
-              }
-            },
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0000)"
-              },
-              "active": {
-                "value": "#257af4"
               }
             },
             "border": {
@@ -291,17 +240,17 @@
                   "value": "rgba(255, 255, 255, 0.7000)"
                 }
               },
+              "shadow": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.2000)"
+                }
+              },
               "foreground": {
                 "main": {
                   "value": "#292929"
                 },
                 "description": {
                   "value": "#9a9a98"
-                }
-              },
-              "shadow": {
-                "main": {
-                  "value": "rgba(0, 0, 0, 0.2000)"
                 }
               }
             },
@@ -767,6 +716,82 @@
               }
             }
           }
+        },
+        "toast": {
+          "background": {
+            "main": {
+              "value": "#ffffff"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0400)"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0900)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#292929"
+            },
+            "description": {
+              "value": "#9a9a98"
+            }
+          }
+        }
+      },
+      "blur": {
+        "cards": {
+          "default": {
+            "main": {
+              "value": "16px"
+            }
+          },
+          "device-management": {
+            "main": {
+              "value": "16px"
+            },
+            "user_panel": {
+              "main": {
+                "value": "10px"
+              }
+            }
+          }
+        },
+        "temperature_control": {
+          "overlay": {
+            "value": "72px"
+          }
+        },
+        "information_chip": {
+          "main": {
+            "value": "12px"
+          }
+        },
+        "buttons": {
+          "icon": {
+            "main": {
+              "value": "20px"
+            }
+          },
+          "secondary": {
+            "main": {
+              "value": "32px"
+            }
+          },
+          "tertiary": {
+            "main": {
+              "value": "32px"
+            }
+          }
+        },
+        "mattress_tooltip": {
+          "main": {
+            "value": "10px"
+          }
         }
       },
       "shadow": {
@@ -857,32 +882,6 @@
             }
           }
         },
-        "mattress_tooltip": {
-          "inner-top": {
-            "x": {
-              "value": "-1px"
-            },
-            "y": {
-              "value": "4px"
-            },
-            "blur": {
-              "value": "3px"
-            }
-          },
-          "inner-bottom": {
-            "y": {
-              "value": "-2px"
-            },
-            "blur": {
-              "value": "8px"
-            }
-          },
-          "drop": {
-            "blur": {
-              "value": "4px"
-            }
-          }
-        },
         "information_chip": {
           "drop": {
             "y": {
@@ -892,61 +891,20 @@
               "value": "6px"
             }
           }
+        },
+        "toast": {
+          "drop": {
+            "y": {
+              "value": "4px"
+            },
+            "blur": {
+              "value": "16px"
+            }
+          }
         }
       }
     },
     "dark": {
-      "blur": {
-        "buttons": {
-          "icon": {
-            "main": {
-              "value": "20px"
-            }
-          },
-          "secondary": {
-            "main": {
-              "value": "32px"
-            }
-          },
-          "tertiary": {
-            "main": {
-              "value": "32px"
-            }
-          }
-        },
-        "cards": {
-          "default": {
-            "main": {
-              "value": "16px"
-            }
-          },
-          "device-management": {
-            "main": {
-              "value": "16px"
-            },
-            "user_panel": {
-              "main": {
-                "value": "10px"
-              }
-            }
-          }
-        },
-        "information_chip": {
-          "main": {
-            "value": "12px"
-          }
-        },
-        "temperature_control": {
-          "overlay": {
-            "value": "72px"
-          }
-        },
-        "mattress_tooltip": {
-          "main": {
-            "value": "10px"
-          }
-        }
-      },
       "color": {
         "progress": {
           "circular": {
@@ -1012,17 +970,17 @@
             }
           },
           "radio": {
+            "background": {
+              "active": {
+                "value": "#4c92f6"
+              },
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
+              }
+            },
             "foreground": {
               "main": {
                 "value": "#ffffff"
-              }
-            },
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0500)"
-              },
-              "active": {
-                "value": "#4c92f6"
               }
             },
             "border": {
@@ -1186,17 +1144,17 @@
                   "value": "#798695"
                 }
               },
+              "shadow": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.2000)"
+                }
+              },
               "foreground": {
                 "main": {
                   "value": "#f9f8f7"
                 },
                 "description": {
                   "value": "rgba(255, 255, 255, 0.7000)"
-                }
-              },
-              "shadow": {
-                "main": {
-                  "value": "rgba(0, 0, 0, 0.2000)"
                 }
               }
             },
@@ -1662,6 +1620,82 @@
               }
             }
           }
+        },
+        "toast": {
+          "background": {
+            "main": {
+              "value": "#172435"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#f9f8f7"
+            },
+            "description": {
+              "value": "#798695"
+            }
+          }
+        }
+      },
+      "blur": {
+        "cards": {
+          "default": {
+            "main": {
+              "value": "16px"
+            }
+          },
+          "device-management": {
+            "main": {
+              "value": "16px"
+            },
+            "user_panel": {
+              "main": {
+                "value": "10px"
+              }
+            }
+          }
+        },
+        "temperature_control": {
+          "overlay": {
+            "value": "72px"
+          }
+        },
+        "information_chip": {
+          "main": {
+            "value": "12px"
+          }
+        },
+        "buttons": {
+          "icon": {
+            "main": {
+              "value": "20px"
+            }
+          },
+          "secondary": {
+            "main": {
+              "value": "32px"
+            }
+          },
+          "tertiary": {
+            "main": {
+              "value": "32px"
+            }
+          }
+        },
+        "mattress_tooltip": {
+          "main": {
+            "value": "10px"
+          }
         }
       },
       "shadow": {
@@ -1752,32 +1786,6 @@
             }
           }
         },
-        "mattress_tooltip": {
-          "inner-top": {
-            "x": {
-              "value": "-1px"
-            },
-            "y": {
-              "value": "4px"
-            },
-            "blur": {
-              "value": "3px"
-            }
-          },
-          "inner-bottom": {
-            "y": {
-              "value": "-2px"
-            },
-            "blur": {
-              "value": "8px"
-            }
-          },
-          "drop": {
-            "blur": {
-              "value": "4px"
-            }
-          }
-        },
         "information_chip": {
           "drop": {
             "y": {
@@ -1785,6 +1793,16 @@
             },
             "blur": {
               "value": "6px"
+            }
+          }
+        },
+        "toast": {
+          "drop": {
+            "y": {
+              "value": "4px"
+            },
+            "blur": {
+              "value": "16px"
             }
           }
         }
