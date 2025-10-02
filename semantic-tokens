@@ -24,6 +24,11 @@
             }
           }
         },
+        "temperature_control": {
+          "overlay": {
+            "value": "72px"
+          }
+        },
         "buttons": {
           "icon": {
             "main": {
@@ -39,11 +44,6 @@
             "main": {
               "value": "32px"
             }
-          }
-        },
-        "temperature_control": {
-          "overlay": {
-            "value": "72px"
           }
         },
         "mattress_tooltip": {
@@ -105,11 +105,11 @@
           },
           "radio": {
             "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0000)"
-              },
               "active": {
                 "value": "#257af4"
+              },
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0000)"
               }
             },
             "foreground": {
@@ -187,17 +187,17 @@
                   "value": "rgba(255, 255, 255, 0.7000)"
                 }
               },
-              "shadow": {
-                "main": {
-                  "value": "rgba(0, 0, 0, 0.2000)"
-                }
-              },
               "foreground": {
                 "main": {
                   "value": "#292929"
                 },
                 "description": {
                   "value": "#9a9a98"
+                }
+              },
+              "shadow": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.2000)"
                 }
               }
             },
@@ -286,20 +286,20 @@
             }
           },
           "selectable_card": {
-            "foreground": {
-              "main": {
-                "value": "#292929"
-              },
-              "active": {
-                "value": "#257af4"
-              }
-            },
             "border": {
               "main": {
                 "value": "rgba(0, 0, 0, 0.0900)"
               },
               "active": {
                 "value": "rgba(37, 122, 244, 0.5000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "active": {
+                "value": "#257af4"
               }
             },
             "background": {
@@ -517,9 +517,6 @@
           },
           "segmented_picker": {
             "foreground": {
-              "main": {
-                "value": "#f9f8f7"
-              },
               "description": {
                 "main": {
                   "value": "rgba(255, 255, 255, 0.3600)"
@@ -527,6 +524,9 @@
                 "active": {
                   "value": "#f9f8f7"
                 }
+              },
+              "main": {
+                "value": "#f9f8f7"
               }
             },
             "background": {
@@ -642,17 +642,17 @@
                 "value": "rgba(0, 0, 0, 0.0600)"
               }
             },
-            "shadow": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.0900)"
-              }
-            },
             "foreground": {
               "main": {
                 "value": "#ffffff"
               },
               "disabled": {
                 "value": "#9a9a98"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
               }
             }
           },
@@ -824,14 +824,14 @@
         "sliders": {
           "temperature": {
             "knob": {
-              "shadow": {
-                "main": {
-                  "value": "rgba(0, 0, 0, 0.2000)"
-                }
-              },
               "background": {
                 "main": {
                   "value": "rgba(255, 255, 255, 0.7500)"
+                }
+              },
+              "shadow": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.2000)"
                 }
               }
             },
@@ -935,16 +935,35 @@
             }
           }
         },
+        "welcome": {
+          "overlay": {
+            "gradient_0": {
+              "value": "rgba(10, 10, 10, 0.3000)"
+            },
+            "gradient_30": {
+              "value": "rgba(10, 10, 10, 0.0000)"
+            },
+            "gradient_50": {
+              "value": "rgba(10, 10, 10, 0.1000)"
+            },
+            "gradient_85": {
+              "value": "rgba(10, 10, 10, 0.6600)"
+            },
+            "gradient_100": {
+              "value": "rgba(10, 10, 10, 0.7000)"
+            }
+          }
+        },
         "sleep_test": {
           "overlay": {
             "gradient_0": {
               "value": "rgba(242, 238, 231, 0.0000)"
             },
             "gradient_30": {
-              "value": "rgba(242, 238, 231, 0.0000)"
+              "value": "rgba(242, 238, 231, 0.1000)"
             },
             "gradient_70": {
-              "value": "#f2eee7"
+              "value": "rgba(242, 238, 231, 0.9800)"
             },
             "gradient_100": {
               "value": "#f2eee7"
@@ -1098,6 +1117,11 @@
             }
           }
         },
+        "temperature_control": {
+          "overlay": {
+            "value": "72px"
+          }
+        },
         "buttons": {
           "icon": {
             "main": {
@@ -1113,11 +1137,6 @@
             "main": {
               "value": "32px"
             }
-          }
-        },
-        "temperature_control": {
-          "overlay": {
-            "value": "72px"
           }
         },
         "mattress_tooltip": {
@@ -1179,11 +1198,11 @@
           },
           "radio": {
             "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0500)"
-              },
               "active": {
                 "value": "#4c92f6"
+              },
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0500)"
               }
             },
             "foreground": {
@@ -1261,17 +1280,17 @@
                   "value": "#798695"
                 }
               },
-              "shadow": {
-                "main": {
-                  "value": "rgba(0, 0, 0, 0.2000)"
-                }
-              },
               "foreground": {
                 "main": {
                   "value": "#f9f8f7"
                 },
                 "description": {
                   "value": "rgba(255, 255, 255, 0.7000)"
+                }
+              },
+              "shadow": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.2000)"
                 }
               }
             },
@@ -1360,20 +1379,20 @@
             }
           },
           "selectable_card": {
-            "foreground": {
-              "main": {
-                "value": "#f9f8f7"
-              },
-              "active": {
-                "value": "#4c92f6"
-              }
-            },
             "border": {
               "main": {
                 "value": "rgba(255, 255, 255, 0.0600)"
               },
               "active": {
                 "value": "rgba(76, 146, 246, 0.5000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              },
+              "active": {
+                "value": "#4c92f6"
               }
             },
             "background": {
@@ -1591,9 +1610,6 @@
           },
           "segmented_picker": {
             "foreground": {
-              "main": {
-                "value": "#f9f8f7"
-              },
               "description": {
                 "main": {
                   "value": "rgba(255, 255, 255, 0.3600)"
@@ -1601,6 +1617,9 @@
                 "active": {
                   "value": "#f9f8f7"
                 }
+              },
+              "main": {
+                "value": "#f9f8f7"
               }
             },
             "background": {
@@ -1716,17 +1735,17 @@
                 "value": "rgba(16, 23, 31, 0.7000)"
               }
             },
-            "shadow": {
-              "main": {
-                "value": "rgba(64, 77, 96, 0.1500)"
-              }
-            },
             "foreground": {
               "main": {
                 "value": "#deebfe"
               },
               "disabled": {
                 "value": "#7c828d"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(64, 77, 96, 0.1500)"
               }
             }
           },
@@ -1898,14 +1917,14 @@
         "sliders": {
           "temperature": {
             "knob": {
-              "shadow": {
-                "main": {
-                  "value": "rgba(0, 0, 0, 0.2000)"
-                }
-              },
               "background": {
                 "main": {
                   "value": "rgba(255, 255, 255, 0.8000)"
+                }
+              },
+              "shadow": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.2000)"
                 }
               }
             },
@@ -1978,10 +1997,10 @@
             },
             "border": {
               "gradient_0": {
-                "value": "rgba(94, 154, 235, 0.2000)"
+                "value": "rgba(125, 207, 231, 0.2000)"
               },
               "gradient_100": {
-                "value": "rgba(216, 83, 85, 0.2000)"
+                "value": "rgba(255, 141, 65, 0.2000)"
               }
             },
             "background": {
@@ -2009,16 +2028,35 @@
             }
           }
         },
+        "welcome": {
+          "overlay": {
+            "gradient_0": {
+              "value": "rgba(10, 10, 10, 0.3000)"
+            },
+            "gradient_30": {
+              "value": "rgba(10, 10, 10, 0.0000)"
+            },
+            "gradient_50": {
+              "value": "rgba(10, 10, 10, 0.1000)"
+            },
+            "gradient_85": {
+              "value": "rgba(10, 10, 10, 0.6600)"
+            },
+            "gradient_100": {
+              "value": "rgba(10, 10, 10, 0.7000)"
+            }
+          }
+        },
         "sleep_test": {
           "overlay": {
             "gradient_0": {
               "value": "rgba(4, 11, 19, 0.0000)"
             },
             "gradient_30": {
-              "value": "rgba(4, 11, 19, 0.0000)"
+              "value": "rgba(4, 11, 19, 0.1000)"
             },
             "gradient_70": {
-              "value": "#040b13"
+              "value": "rgba(4, 11, 19, 0.9800)"
             },
             "gradient_100": {
               "value": "#040b13"
