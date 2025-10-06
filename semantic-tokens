@@ -598,7 +598,7 @@
           },
           "border": {
             "main": {
-              "value": "#e6e6e6"
+              "value": "rgba(255, 255, 255, 0.0000)"
             }
           },
           "foreground": {
@@ -981,7 +981,7 @@
               "value": "rgba(242, 238, 231, 0.0000)"
             },
             "gradient_30": {
-              "value": "rgba(242, 238, 231, 0.1000)"
+              "value": "rgba(242, 238, 231, 0.0000)"
             },
             "gradient_70": {
               "value": "rgba(242, 238, 231, 0.9800)"
@@ -1396,13 +1396,13 @@
           "text_input": {
             "border": {
               "main": {
-                "value": "rgba(255, 255, 255, 0.2000)"
+                "value": "rgba(219, 233, 253, 0.3600)"
               },
               "active": {
                 "value": "#4c92f6"
               },
               "disabled": {
-                "value": "rgba(255, 255, 255, 0.1200)"
+                "value": "rgba(219, 233, 253, 0.1200)"
               },
               "error": {
                 "value": "#fa6a6a"
@@ -1413,10 +1413,10 @@
                 "value": "#ffffff"
               },
               "placeholder": {
-                "value": "rgba(255, 255, 255, 0.4800)"
+                "value": "rgba(219, 233, 253, 0.4800)"
               },
               "disabled": {
-                "value": "rgba(255, 255, 255, 0.3600)"
+                "value": "rgba(219, 233, 253, 0.3600)"
               }
             }
           },
@@ -1793,7 +1793,7 @@
           "primary": {
             "background": {
               "main": {
-                "value": "rgba(0, 60, 148, 0.8000)"
+                "value": "rgba(6, 95, 224, 0.8000)"
               },
               "disabled": {
                 "value": "rgba(16, 23, 31, 0.7000)"
@@ -1806,7 +1806,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#deebfe"
+                "value": "#ffffff"
               },
               "disabled": {
                 "value": "#7c828d"
