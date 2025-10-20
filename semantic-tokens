@@ -1923,25 +1923,25 @@
           },
           "asset_animation": {
             "cold_1": {
-              "value": "#68a8ff"
+              "value": "#7cbcff"
             },
             "cold_2": {
-              "value": "#61a4ff"
+              "value": "#5ea2ff"
             },
             "cold_3": {
-              "value": "#528eff"
+              "value": "#5590ff"
             },
             "equilibrium_0": {
-              "value": "#8f58ff"
+              "value": "#a084ff"
             },
             "hot_1": {
-              "value": "#ff7a7a"
+              "value": "#ff6f6f"
             },
             "hot_2": {
-              "value": "#ff5558"
+              "value": "#ff5154"
             },
             "hot_3": {
-              "value": "#ff3131"
+              "value": "#ff3939"
             }
           }
         },
