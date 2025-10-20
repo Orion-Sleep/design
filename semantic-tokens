@@ -634,25 +634,25 @@
           "slider": {
             "background": {
               "gradient_0": {
-                "value": "rgba(46, 129, 242, 0.8000)"
+                "value": "rgba(84, 156, 255, 0.9000)"
               },
               "gradient_20": {
-                "value": "rgba(46, 129, 242, 0.5000)"
+                "value": "rgba(84, 156, 255, 0.5000)"
               },
               "gradient_30": {
-                "value": "rgba(46, 129, 242, 0.4000)"
+                "value": "rgba(84, 156, 255, 0.4000)"
               },
               "gradient_50": {
                 "value": "rgba(103, 53, 255, 0.2400)"
               },
               "gradient_70": {
-                "value": "rgba(255, 60, 62, 0.4000)"
+                "value": "rgba(255, 99, 101, 0.4000)"
               },
               "gradient_80": {
-                "value": "rgba(255, 60, 62, 0.5000)"
+                "value": "rgba(255, 99, 101, 0.5000)"
               },
               "gradient_100": {
-                "value": "rgba(255, 60, 62, 0.8000)"
+                "value": "rgba(255, 99, 101, 0.9000)"
               },
               "tick": {
                 "value": "rgba(255, 255, 255, 0.4800)"
@@ -1053,7 +1053,7 @@
           }
         },
         "settings": {
-          "radio_group": {
+          "option_button": {
             "foreground": {
               "main": {
                 "value": "#292929"
@@ -1895,13 +1895,13 @@
               "value": "rgba(59, 140, 255, 0.4500)"
             },
             "hot_1": {
-              "value": "rgba(255, 117, 117, 0.3200)"
+              "value": "rgba(255, 113, 113, 0.3200)"
             },
             "hot_2": {
-              "value": "rgba(255, 104, 106, 0.4200)"
+              "value": "rgba(255, 113, 113, 0.4200)"
             },
             "hot_3": {
-              "value": "rgba(255, 75, 78, 0.4200)"
+              "value": "rgba(255, 93, 93, 0.4200)"
             },
             "equilibrium_0": {
               "value": "rgba(168, 126, 255, 0.4500)"
@@ -1960,25 +1960,25 @@
           "slider": {
             "background": {
               "gradient_0": {
-                "value": "rgba(96, 179, 255, 0.8000)"
+                "value": "rgba(119, 190, 255, 0.8000)"
               },
               "gradient_20": {
-                "value": "rgba(96, 179, 255, 0.5000)"
+                "value": "rgba(119, 190, 255, 0.5000)"
               },
               "gradient_30": {
-                "value": "rgba(96, 179, 255, 0.4000)"
+                "value": "rgba(119, 190, 255, 0.4000)"
               },
               "gradient_50": {
                 "value": "rgba(147, 110, 255, 0.4800)"
               },
               "gradient_70": {
-                "value": "rgba(255, 110, 112, 0.4000)"
+                "value": "rgba(255, 112, 114, 0.4000)"
               },
               "gradient_80": {
-                "value": "rgba(255, 110, 112, 0.5000)"
+                "value": "rgba(255, 112, 114, 0.5000)"
               },
               "gradient_100": {
-                "value": "rgba(255, 110, 112, 0.8000)"
+                "value": "rgba(255, 112, 114, 0.8000)"
               },
               "tick": {
                 "value": "rgba(255, 255, 255, 0.4800)"
@@ -2379,7 +2379,7 @@
           }
         },
         "settings": {
-          "radio_group": {
+          "option_button": {
             "foreground": {
               "main": {
                 "value": "#f9f8f7"
