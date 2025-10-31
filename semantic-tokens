@@ -2,31 +2,9 @@
   "semantic_tokens": {
     "light": {
       "blur": {
-        "temperature_control": {
-          "overlay": {
-            "value": "74px"
-          }
-        },
         "information_chip": {
           "main": {
             "value": "12px"
-          }
-        },
-        "cards": {
-          "default": {
-            "main": {
-              "value": "16px"
-            }
-          },
-          "device_management": {
-            "main": {
-              "value": "16px"
-            },
-            "user_panel": {
-              "main": {
-                "value": "10px"
-              }
-            }
           }
         },
         "buttons": {
@@ -46,9 +24,40 @@
             }
           }
         },
+        "cards": {
+          "default": {
+            "main": {
+              "value": "16px"
+            }
+          },
+          "device_management": {
+            "main": {
+              "value": "16px"
+            },
+            "user_panel": {
+              "main": {
+                "value": "10px"
+              }
+            }
+          }
+        },
+        "temperature_control": {
+          "overlay": {
+            "value": "74px"
+          }
+        },
         "mattress_tooltip": {
           "main": {
             "value": "10px"
+          }
+        },
+        "device_onboarding": {
+          "cards": {
+            "default": {
+              "main": {
+                "value": "56px"
+              }
+            }
           }
         },
         "carousel_dots": {
@@ -62,15 +71,6 @@
           },
           "device_onboarding": {
             "value": "64px"
-          }
-        },
-        "device_onboarding": {
-          "cards": {
-            "default": {
-              "main": {
-                "value": "56px"
-              }
-            }
           }
         }
       },
@@ -89,7 +89,7 @@
           "bar": {
             "background": {
               "main": {
-                "value": "#e6e6e6"
+                "value": "rgba(0, 0, 0, 0.0600)"
               },
               "active": {
                 "value": "#4c92f6"
@@ -97,26 +97,13 @@
             }
           }
         },
-        "toggle": {
-          "background": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0600)"
-            },
-            "active": {
-              "value": "#18c95c"
-            },
-            "knob": {
-              "value": "#ffffff"
-            }
-          }
-        },
         "cards": {
           "default": {
             "background": {
-              "elevated": {
+              "main": {
                 "value": "rgba(255, 255, 255, 0.8000)"
               },
-              "main": {
+              "elevated": {
                 "value": "rgba(255, 255, 255, 0.8000)"
               },
               "main_transparent": {
@@ -232,14 +219,6 @@
             }
           },
           "selectable_card": {
-            "border": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.0900)"
-              },
-              "active": {
-                "value": "rgba(37, 122, 244, 0.5000)"
-              }
-            },
             "foreground": {
               "main": {
                 "value": "#292929"
@@ -248,10 +227,147 @@
                 "value": "#257af4"
               }
             },
+            "border": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              },
+              "active": {
+                "value": "rgba(37, 122, 244, 0.5000)"
+              }
+            },
             "background": {
               "main": {
                 "value": "rgba(255, 255, 255, 0.8000)"
               }
+            }
+          }
+        },
+        "information_chip": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0500)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#292929"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0900)"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0400)"
+            }
+          }
+        },
+        "toggle": {
+          "background": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0600)"
+            },
+            "active": {
+              "value": "#18c95c"
+            },
+            "knob": {
+              "value": "#ffffff"
+            }
+          }
+        },
+        "fills": {
+          "foreground": {
+            "main": {
+              "value": "#292929"
+            },
+            "description": {
+              "value": "#9a9a98"
+            }
+          },
+          "background": {
+            "main": {
+              "value": "#f2eee7"
+            },
+            "main_transparent": {
+              "value": "rgba(242, 238, 231, 0.0000)"
+            },
+            "divider": {
+              "value": "rgba(0, 0, 0, 0.0900)"
+            },
+            "sheet": {
+              "main": {
+                "value": "#f2eee7"
+              },
+              "grabber": {
+                "value": "#d6d6d6"
+              }
+            }
+          },
+          "primary": {
+            "foreground": {
+              "main": {
+                "value": "#257af4"
+              }
+            },
+            "background": {
+              "main": {
+                "value": "#257af4"
+              },
+              "main_transparent": {
+                "value": "rgba(37, 122, 244, 0.0000)"
+              }
+            }
+          },
+          "destructive": {
+            "background": {
+              "faded": {
+                "value": "rgba(247, 72, 71, 0.0900)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#f74847"
+              }
+            }
+          },
+          "positive": {
+            "background": {
+              "faded": {
+                "value": "rgba(32, 225, 106, 0.1100)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#179e49"
+              }
+            }
+          },
+          "white": {
+            "value": "#ffffff"
+          },
+          "accent": {
+            "value": "#257af4"
+          },
+          "information": {
+            "foreground": {
+              "main": {
+                "value": "#ff9a3c"
+              }
+            }
+          },
+          "warning": {
+            "foreground": {
+              "value": "#d08c03"
+            },
+            "background": {
+              "value": "rgba(205, 137, 0, 0.1200)"
+            }
+          },
+          "fill_water": {
+            "foreground": {
+              "value": "#2ea4f2"
             }
           }
         },
@@ -321,112 +437,6 @@
               "main": {
                 "value": "rgba(0, 0, 0, 0.2000)"
               }
-            }
-          }
-        },
-        "fills": {
-          "foreground": {
-            "main": {
-              "value": "#292929"
-            },
-            "description": {
-              "value": "#9a9a98"
-            }
-          },
-          "background": {
-            "main": {
-              "value": "#f2eee7"
-            },
-            "main_transparent": {
-              "value": "rgba(242, 238, 231, 0.0000)"
-            },
-            "divider": {
-              "value": "rgba(0, 0, 0, 0.0900)"
-            },
-            "sheet": {
-              "main": {
-                "value": "#f2eee7"
-              },
-              "grabber": {
-                "value": "#d6d6d6"
-              }
-            }
-          },
-          "primary": {
-            "foreground": {
-              "main": {
-                "value": "#257af4"
-              }
-            },
-            "background": {
-              "main": {
-                "value": "#257af4"
-              },
-              "main_transparent": {
-                "value": "rgba(37, 122, 244, 0.0000)"
-              }
-            }
-          },
-          "destructive": {
-            "foreground": {
-              "main": {
-                "value": "#f74847"
-              }
-            }
-          },
-          "white": {
-            "value": "#ffffff"
-          },
-          "accent": {
-            "value": "#257af4"
-          },
-          "positive": {
-            "foreground": {
-              "main": {
-                "value": "#18c95c"
-              }
-            }
-          },
-          "information": {
-            "foreground": {
-              "main": {
-                "value": "#ff9a3c"
-              }
-            }
-          },
-          "warning": {
-            "foreground": {
-              "value": "#d08c03"
-            },
-            "background": {
-              "value": "rgba(205, 137, 0, 0.1200)"
-            }
-          },
-          "fill_water": {
-            "foreground": {
-              "value": "#2ea4f2"
-            }
-          }
-        },
-        "information_chip": {
-          "background": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0500)"
-            }
-          },
-          "foreground": {
-            "main": {
-              "value": "#292929"
-            }
-          },
-          "border": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0900)"
-            }
-          },
-          "shadow": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0400)"
             }
           }
         },
@@ -529,9 +539,6 @@
           },
           "segmented_picker": {
             "foreground": {
-              "main": {
-                "value": "#f9f8f7"
-              },
               "description": {
                 "main": {
                   "value": "rgba(255, 255, 255, 0.3600)"
@@ -539,6 +546,9 @@
                 "active": {
                   "value": "#f9f8f7"
                 }
+              },
+              "main": {
+                "value": "#f9f8f7"
               }
             },
             "background": {
@@ -786,17 +796,17 @@
                 "value": "rgba(0, 0, 0, 0.0600)"
               }
             },
-            "shadow": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.0900)"
-              }
-            },
             "foreground": {
               "main": {
                 "value": "#ffffff"
               },
               "disabled": {
                 "value": "#9a9a98"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
               }
             }
           },
@@ -964,14 +974,14 @@
         "sliders": {
           "temperature": {
             "knob": {
-              "background": {
-                "main": {
-                  "value": "rgba(255, 255, 255, 0.7500)"
-                }
-              },
               "shadow": {
                 "main": {
                   "value": "rgba(0, 0, 0, 0.2000)"
+                }
+              },
+              "background": {
+                "main": {
+                  "value": "rgba(255, 255, 255, 0.7500)"
                 }
               }
             },
@@ -1092,6 +1102,58 @@
             }
           }
         },
+        "settings": {
+          "option_button": {
+            "background": {
+              "main": {
+                "value": "#fdfcfa"
+              },
+              "active": {
+                "value": "rgba(37, 122, 244, 0.1000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "active": {
+                "value": "#257af4"
+              }
+            }
+          },
+          "cell": {
+            "background": {
+              "main": {
+                "value": "#fdfcfa"
+              },
+              "divider": {
+                "value": "rgba(0, 0, 0, 0.0600)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "icon": {
+                "value": "#9a9a98"
+              }
+            }
+          },
+          "footer": {
+            "foreground": {
+              "main": {
+                "value": "#9a9a98"
+              }
+            }
+          },
+          "section_header": {
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              }
+            }
+          }
+        },
         "sleep_test": {
           "overlay": {
             "gradient_0": {
@@ -1133,77 +1195,6 @@
             }
           }
         },
-        "welcome": {
-          "overlay": {
-            "gradient_0": {
-              "value": "rgba(10, 10, 10, 0.3000)"
-            },
-            "gradient_30": {
-              "value": "rgba(10, 10, 10, 0.0000)"
-            },
-            "gradient_50": {
-              "value": "rgba(10, 10, 10, 0.1000)"
-            },
-            "gradient_85": {
-              "value": "rgba(10, 10, 10, 0.6600)"
-            },
-            "gradient_100": {
-              "value": "rgba(10, 10, 10, 0.7000)"
-            }
-          }
-        },
-        "settings": {
-          "option_button": {
-            "foreground": {
-              "main": {
-                "value": "#292929"
-              },
-              "active": {
-                "value": "#257af4"
-              }
-            },
-            "background": {
-              "main": {
-                "value": "#fdfcfa"
-              },
-              "active": {
-                "value": "rgba(37, 122, 244, 0.1000)"
-              }
-            }
-          },
-          "cell": {
-            "background": {
-              "main": {
-                "value": "#fdfcfa"
-              },
-              "divider": {
-                "value": "rgba(0, 0, 0, 0.0600)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#292929"
-              },
-              "icon": {
-                "value": "#9a9a98"
-              }
-            }
-          },
-          "footer": {
-            "foreground": {
-              "main": {
-                "value": "#9a9a98"
-              }
-            }
-          },
-          "section_header": {
-            "foreground": {
-              "main": {
-                "value": "#292929"
-              }
-            }
-          }
-        },
         "force_app_update": {
           "overlay": {
             "gradient_0": {
@@ -1222,6 +1213,25 @@
           "foreground": {
             "description": {
               "value": "#9a9a98"
+            }
+          }
+        },
+        "welcome": {
+          "overlay": {
+            "gradient_0": {
+              "value": "rgba(10, 10, 10, 0.3000)"
+            },
+            "gradient_30": {
+              "value": "rgba(10, 10, 10, 0.0000)"
+            },
+            "gradient_50": {
+              "value": "rgba(10, 10, 10, 0.1000)"
+            },
+            "gradient_85": {
+              "value": "rgba(10, 10, 10, 0.6600)"
+            },
+            "gradient_100": {
+              "value": "rgba(10, 10, 10, 0.7000)"
             }
           }
         },
@@ -1256,6 +1266,23 @@
               }
             }
           },
+          "badge": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.7500)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            }
+          },
           "cards": {
             "default": {
               "background": {
@@ -1275,29 +1302,24 @@
               }
             }
           },
-          "badge": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.7500)"
-              }
-            },
-            "border": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            }
-          },
           "foreground": {
             "main": {
               "value": "#ffffff"
             },
             "description": {
               "value": "rgba(255, 255, 255, 0.7300)"
+            }
+          }
+        },
+        "context_overlay": {
+          "background": {
+            "main": {
+              "value": "#ffffff"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0600)"
             }
           }
         },
@@ -1318,15 +1340,76 @@
             }
           }
         },
-        "context_overlay": {
-          "background": {
-            "main": {
-              "value": "#ffffff"
+        "insights": {
+          "graphs": {
+            "foreground": {
+              "description": {
+                "value": "#9a9a98"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              }
+            },
+            "breath_rate": {
+              "foreground": {
+                "active": {
+                  "value": "#72aeff"
+                },
+                "average": {
+                  "value": "#ff9a3c"
+                }
+              },
+              "background": {
+                "gradient_0": {
+                  "value": "rgba(114, 174, 255, 0.2000)"
+                },
+                "gradient_100": {
+                  "value": "rgba(114, 174, 255, 0.0000)"
+                }
+              }
+            },
+            "heart_rate": {
+              "background": {
+                "gradient_0": {
+                  "value": "rgba(236, 183, 183, 0.3000)"
+                },
+                "gradient_100": {
+                  "value": "rgba(236, 183, 183, 0.0000)"
+                }
+              },
+              "foreground": {
+                "active": {
+                  "value": "#f07171"
+                },
+                "average": {
+                  "value": "#18c95c"
+                }
+              }
+            },
+            "sleep_summary": {
+              "background": {
+                "main": {
+                  "value": "#3e8dff"
+                },
+                "interruption": {
+                  "value": "#d0e3ff"
+                }
+              }
             }
           },
-          "border": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0600)"
+          "result": {
+            "background": {
+              "positive": {
+                "value": "#18c95c"
+              },
+              "negative": {
+                "value": "#f07171"
+              },
+              "indeterminate": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              }
             }
           }
         },
@@ -1473,31 +1556,9 @@
     },
     "dark": {
       "blur": {
-        "temperature_control": {
-          "overlay": {
-            "value": "74px"
-          }
-        },
         "information_chip": {
           "main": {
             "value": "12px"
-          }
-        },
-        "cards": {
-          "default": {
-            "main": {
-              "value": "16px"
-            }
-          },
-          "device_management": {
-            "main": {
-              "value": "16px"
-            },
-            "user_panel": {
-              "main": {
-                "value": "10px"
-              }
-            }
           }
         },
         "buttons": {
@@ -1517,9 +1578,40 @@
             }
           }
         },
+        "cards": {
+          "default": {
+            "main": {
+              "value": "16px"
+            }
+          },
+          "device_management": {
+            "main": {
+              "value": "16px"
+            },
+            "user_panel": {
+              "main": {
+                "value": "10px"
+              }
+            }
+          }
+        },
+        "temperature_control": {
+          "overlay": {
+            "value": "74px"
+          }
+        },
         "mattress_tooltip": {
           "main": {
             "value": "10px"
+          }
+        },
+        "device_onboarding": {
+          "cards": {
+            "default": {
+              "main": {
+                "value": "56px"
+              }
+            }
           }
         },
         "carousel_dots": {
@@ -1533,15 +1625,6 @@
           },
           "device_onboarding": {
             "value": "64px"
-          }
-        },
-        "device_onboarding": {
-          "cards": {
-            "default": {
-              "main": {
-                "value": "56px"
-              }
-            }
           }
         }
       },
@@ -1560,35 +1643,22 @@
           "bar": {
             "background": {
               "main": {
-                "value": "#292929"
+                "value": "rgba(219, 233, 253, 0.1200)"
               },
               "active": {
-                "value": "#72aeff"
+                "value": "#4c92f6"
               }
-            }
-          }
-        },
-        "toggle": {
-          "background": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.1200)"
-            },
-            "active": {
-              "value": "#2ac85c"
-            },
-            "knob": {
-              "value": "#ffffff"
             }
           }
         },
         "cards": {
           "default": {
             "background": {
-              "elevated": {
-                "value": "#1c2531"
-              },
               "main": {
                 "value": "#10171f"
+              },
+              "elevated": {
+                "value": "#1c2531"
               },
               "main_transparent": {
                 "value": "rgba(16, 23, 31, 0.0000)"
@@ -1703,14 +1773,6 @@
             }
           },
           "selectable_card": {
-            "border": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0600)"
-              },
-              "active": {
-                "value": "rgba(76, 146, 246, 0.5000)"
-              }
-            },
             "foreground": {
               "main": {
                 "value": "#f9f8f7"
@@ -1719,10 +1781,147 @@
                 "value": "#4c92f6"
               }
             },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              },
+              "active": {
+                "value": "rgba(76, 146, 246, 0.5000)"
+              }
+            },
             "background": {
               "main": {
                 "value": "#10171f"
               }
+            }
+          }
+        },
+        "information_chip": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#ffffff"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0000)"
+            }
+          }
+        },
+        "toggle": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.1200)"
+            },
+            "active": {
+              "value": "#2ac85c"
+            },
+            "knob": {
+              "value": "#ffffff"
+            }
+          }
+        },
+        "fills": {
+          "foreground": {
+            "main": {
+              "value": "#f9f8f7"
+            },
+            "description": {
+              "value": "#798695"
+            }
+          },
+          "background": {
+            "main": {
+              "value": "#040b13"
+            },
+            "main_transparent": {
+              "value": "rgba(4, 11, 19, 0.0000)"
+            },
+            "divider": {
+              "value": "rgba(255, 255, 255, 0.1200)"
+            },
+            "sheet": {
+              "main": {
+                "value": "#10171f"
+              },
+              "grabber": {
+                "value": "#2c3b4d"
+              }
+            }
+          },
+          "primary": {
+            "foreground": {
+              "main": {
+                "value": "#4c92f6"
+              }
+            },
+            "background": {
+              "main": {
+                "value": "#4c92f6"
+              },
+              "main_transparent": {
+                "value": "rgba(76, 146, 246, 0.0000)"
+              }
+            }
+          },
+          "destructive": {
+            "background": {
+              "faded": {
+                "value": "rgba(250, 106, 106, 0.1200)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#fa6a6a"
+              }
+            }
+          },
+          "positive": {
+            "background": {
+              "faded": {
+                "value": "rgba(42, 200, 92, 0.1100)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#2ac85c"
+              }
+            }
+          },
+          "white": {
+            "value": "#ffffff"
+          },
+          "accent": {
+            "value": "#4c92f6"
+          },
+          "information": {
+            "foreground": {
+              "main": {
+                "value": "#ffab62"
+              }
+            }
+          },
+          "warning": {
+            "foreground": {
+              "value": "#ffb85c"
+            },
+            "background": {
+              "value": "rgba(255, 184, 92, 0.1000)"
+            }
+          },
+          "fill_water": {
+            "foreground": {
+              "value": "#6dc3fc"
             }
           }
         },
@@ -1792,112 +1991,6 @@
               "main": {
                 "value": "rgba(219, 233, 253, 0.2000)"
               }
-            }
-          }
-        },
-        "fills": {
-          "foreground": {
-            "main": {
-              "value": "#f9f8f7"
-            },
-            "description": {
-              "value": "#798695"
-            }
-          },
-          "background": {
-            "main": {
-              "value": "#040b13"
-            },
-            "main_transparent": {
-              "value": "rgba(4, 11, 19, 0.0000)"
-            },
-            "divider": {
-              "value": "rgba(255, 255, 255, 0.1200)"
-            },
-            "sheet": {
-              "main": {
-                "value": "#10171f"
-              },
-              "grabber": {
-                "value": "#2c3b4d"
-              }
-            }
-          },
-          "primary": {
-            "foreground": {
-              "main": {
-                "value": "#4c92f6"
-              }
-            },
-            "background": {
-              "main": {
-                "value": "#4c92f6"
-              },
-              "main_transparent": {
-                "value": "rgba(76, 146, 246, 0.0000)"
-              }
-            }
-          },
-          "destructive": {
-            "foreground": {
-              "main": {
-                "value": "#fa6a6a"
-              }
-            }
-          },
-          "white": {
-            "value": "#ffffff"
-          },
-          "accent": {
-            "value": "#4c92f6"
-          },
-          "positive": {
-            "foreground": {
-              "main": {
-                "value": "#2ac85c"
-              }
-            }
-          },
-          "information": {
-            "foreground": {
-              "main": {
-                "value": "#ffab62"
-              }
-            }
-          },
-          "warning": {
-            "foreground": {
-              "value": "#ffb85c"
-            },
-            "background": {
-              "value": "rgba(255, 184, 92, 0.1000)"
-            }
-          },
-          "fill_water": {
-            "foreground": {
-              "value": "#6dc3fc"
-            }
-          }
-        },
-        "information_chip": {
-          "background": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0600)"
-            }
-          },
-          "foreground": {
-            "main": {
-              "value": "#ffffff"
-            }
-          },
-          "border": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0600)"
-            }
-          },
-          "shadow": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0000)"
             }
           }
         },
@@ -2000,9 +2093,6 @@
           },
           "segmented_picker": {
             "foreground": {
-              "main": {
-                "value": "#f9f8f7"
-              },
               "description": {
                 "main": {
                   "value": "rgba(255, 255, 255, 0.3600)"
@@ -2010,6 +2100,9 @@
                 "active": {
                   "value": "#f9f8f7"
                 }
+              },
+              "main": {
+                "value": "#f9f8f7"
               }
             },
             "background": {
@@ -2257,17 +2350,17 @@
                 "value": "rgba(219, 233, 253, 0.0500)"
               }
             },
-            "shadow": {
-              "main": {
-                "value": "rgba(64, 77, 96, 0.1500)"
-              }
-            },
             "foreground": {
               "main": {
                 "value": "#ffffff"
               },
               "disabled": {
                 "value": "#7c828d"
+              }
+            },
+            "shadow": {
+              "main": {
+                "value": "rgba(64, 77, 96, 0.1500)"
               }
             }
           },
@@ -2435,14 +2528,14 @@
         "sliders": {
           "temperature": {
             "knob": {
-              "background": {
-                "main": {
-                  "value": "rgba(255, 255, 255, 0.8000)"
-                }
-              },
               "shadow": {
                 "main": {
                   "value": "rgba(0, 0, 0, 0.2000)"
+                }
+              },
+              "background": {
+                "main": {
+                  "value": "rgba(255, 255, 255, 0.8000)"
                 }
               }
             },
@@ -2563,6 +2656,58 @@
             }
           }
         },
+        "settings": {
+          "option_button": {
+            "background": {
+              "main": {
+                "value": "#10171f"
+              },
+              "active": {
+                "value": "rgba(76, 146, 246, 0.1000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              },
+              "active": {
+                "value": "#4c92f6"
+              }
+            }
+          },
+          "cell": {
+            "background": {
+              "main": {
+                "value": "#10171f"
+              },
+              "divider": {
+                "value": "rgba(219, 233, 253, 0.0600)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              },
+              "icon": {
+                "value": "#798695"
+              }
+            }
+          },
+          "footer": {
+            "foreground": {
+              "main": {
+                "value": "#798695"
+              }
+            }
+          },
+          "section_header": {
+            "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              }
+            }
+          }
+        },
         "sleep_test": {
           "overlay": {
             "gradient_0": {
@@ -2604,77 +2749,6 @@
             }
           }
         },
-        "welcome": {
-          "overlay": {
-            "gradient_0": {
-              "value": "rgba(10, 10, 10, 0.3000)"
-            },
-            "gradient_30": {
-              "value": "rgba(10, 10, 10, 0.0000)"
-            },
-            "gradient_50": {
-              "value": "rgba(10, 10, 10, 0.1000)"
-            },
-            "gradient_85": {
-              "value": "rgba(10, 10, 10, 0.6600)"
-            },
-            "gradient_100": {
-              "value": "rgba(10, 10, 10, 0.7000)"
-            }
-          }
-        },
-        "settings": {
-          "option_button": {
-            "foreground": {
-              "main": {
-                "value": "#f9f8f7"
-              },
-              "active": {
-                "value": "#4c92f6"
-              }
-            },
-            "background": {
-              "main": {
-                "value": "#10171f"
-              },
-              "active": {
-                "value": "rgba(76, 146, 246, 0.1000)"
-              }
-            }
-          },
-          "cell": {
-            "background": {
-              "main": {
-                "value": "#10171f"
-              },
-              "divider": {
-                "value": "rgba(219, 233, 253, 0.0600)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#f9f8f7"
-              },
-              "icon": {
-                "value": "#798695"
-              }
-            }
-          },
-          "footer": {
-            "foreground": {
-              "main": {
-                "value": "#798695"
-              }
-            }
-          },
-          "section_header": {
-            "foreground": {
-              "main": {
-                "value": "#f9f8f7"
-              }
-            }
-          }
-        },
         "force_app_update": {
           "overlay": {
             "gradient_0": {
@@ -2693,6 +2767,25 @@
           "foreground": {
             "description": {
               "value": "#f9f8f7"
+            }
+          }
+        },
+        "welcome": {
+          "overlay": {
+            "gradient_0": {
+              "value": "rgba(10, 10, 10, 0.3000)"
+            },
+            "gradient_30": {
+              "value": "rgba(10, 10, 10, 0.0000)"
+            },
+            "gradient_50": {
+              "value": "rgba(10, 10, 10, 0.1000)"
+            },
+            "gradient_85": {
+              "value": "rgba(10, 10, 10, 0.6600)"
+            },
+            "gradient_100": {
+              "value": "rgba(10, 10, 10, 0.7000)"
             }
           }
         },
@@ -2727,6 +2820,23 @@
               }
             }
           },
+          "badge": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.7500)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            }
+          },
           "cards": {
             "default": {
               "background": {
@@ -2746,29 +2856,24 @@
               }
             }
           },
-          "badge": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.7500)"
-              }
-            },
-            "border": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            }
-          },
           "foreground": {
             "main": {
               "value": "#ffffff"
             },
             "description": {
               "value": "rgba(255, 255, 255, 0.7300)"
+            }
+          }
+        },
+        "context_overlay": {
+          "background": {
+            "main": {
+              "value": "#192637"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
             }
           }
         },
@@ -2789,15 +2894,76 @@
             }
           }
         },
-        "context_overlay": {
-          "background": {
-            "main": {
-              "value": "#192637"
+        "insights": {
+          "graphs": {
+            "foreground": {
+              "description": {
+                "value": "#798695"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(219, 233, 253, 0.1500)"
+              }
+            },
+            "breath_rate": {
+              "foreground": {
+                "active": {
+                  "value": "#72aeff"
+                },
+                "average": {
+                  "value": "rgba(219, 233, 253, 0.7500)"
+                }
+              },
+              "background": {
+                "gradient_0": {
+                  "value": "rgba(114, 174, 255, 0.2400)"
+                },
+                "gradient_100": {
+                  "value": "rgba(114, 174, 255, 0.0000)"
+                }
+              }
+            },
+            "heart_rate": {
+              "background": {
+                "gradient_0": {
+                  "value": "rgba(240, 113, 113, 0.2400)"
+                },
+                "gradient_100": {
+                  "value": "rgba(240, 113, 113, 0.0000)"
+                }
+              },
+              "foreground": {
+                "active": {
+                  "value": "#d05252"
+                },
+                "average": {
+                  "value": "rgba(219, 233, 253, 0.7500)"
+                }
+              }
+            },
+            "sleep_summary": {
+              "background": {
+                "main": {
+                  "value": "#4c92f6"
+                },
+                "interruption": {
+                  "value": "#2b466c"
+                }
+              }
             }
           },
-          "border": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0600)"
+          "result": {
+            "background": {
+              "positive": {
+                "value": "#2ac85c"
+              },
+              "negative": {
+                "value": "#f07171"
+              },
+              "indeterminate": {
+                "value": "rgba(219, 233, 253, 0.2000)"
+              }
             }
           }
         },
