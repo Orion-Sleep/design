@@ -1639,7 +1639,7 @@
             "tooltip": {
               "background": {
                 "main": {
-                  "value": "rgba(0, 0, 0, 0.6000)"
+                  "value": "rgba(0, 0, 0, 0.5400)"
                 }
               },
               "foreground": {
@@ -3602,12 +3602,12 @@
             "tooltip": {
               "background": {
                 "main": {
-                  "value": "rgba(219, 233, 253, 0.3300)"
+                  "value": "rgba(233, 242, 255, 0.7600)"
                 }
               },
               "foreground": {
                 "main": {
-                  "value": "#ffffff"
+                  "value": "#292929"
                 }
               }
             },
