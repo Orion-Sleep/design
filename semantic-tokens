@@ -1494,6 +1494,23 @@
               }
             }
           },
+          "badge": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.7500)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            }
+          },
           "asset_animation": {
             "water_fill": {
               "start": {
@@ -1527,19 +1544,12 @@
               }
             }
           },
-          "badge": {
+          "segmented_picker": {
             "background": {
               "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.7500)"
-              }
-            },
-            "border": {
-              "main": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              },
+              "active": {
                 "value": "rgba(255, 255, 255, 0.1200)"
               }
             }
@@ -1554,16 +1564,6 @@
               }
             }
           },
-          "segmented_picker": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0600)"
-              },
-              "active": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            }
-          },
           "foreground": {
             "main": {
               "value": "#ffffff"
@@ -1573,45 +1573,11 @@
             }
           }
         },
-        "carousel_dots": {
-          "background": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0600)"
-            }
-          },
-          "dots": {
-            "background": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.0600)"
-              },
-              "active": {
-                "value": "rgba(0, 0, 0, 0.7000)"
-              }
-            }
-          }
-        },
         "insights": {
           "graphs": {
             "foreground": {
               "description": {
                 "value": "#9a9a98"
-              }
-            },
-            "movements": {
-              "background": {
-                "gradient_start": {
-                  "value": "rgba(0, 0, 0, 0.0600)"
-                },
-                "gradient_end": {
-                  "value": "rgba(0, 0, 0, 0.0900)"
-                }
-              }
-            },
-            "tooltip": {
-              "background": {
-                "main": {
-                  "value": "rgba(0, 0, 0, 0.0400)"
-                }
               }
             },
             "background": {
@@ -1660,6 +1626,28 @@
                 }
               }
             },
+            "movements": {
+              "background": {
+                "gradient_start": {
+                  "value": "rgba(0, 0, 0, 0.0600)"
+                },
+                "gradient_end": {
+                  "value": "rgba(0, 0, 0, 0.0900)"
+                }
+              }
+            },
+            "tooltip": {
+              "background": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.6000)"
+                }
+              },
+              "foreground": {
+                "main": {
+                  "value": "#ffffff"
+                }
+              }
+            },
             "border": {
               "main": {
                 "value": "rgba(0, 0, 0, 0.0900)"
@@ -1669,20 +1657,20 @@
               }
             },
             "breath_rate": {
-              "foreground": {
-                "active": {
-                  "value": "#72aeff"
-                },
-                "average": {
-                  "value": "rgba(0, 0, 0, 0.2800)"
-                }
-              },
               "background": {
                 "gradient_0": {
                   "value": "rgba(114, 174, 255, 0.2000)"
                 },
                 "gradient_100": {
                   "value": "rgba(114, 174, 255, 0.0000)"
+                }
+              },
+              "foreground": {
+                "active": {
+                  "value": "#72aeff"
+                },
+                "average": {
+                  "value": "rgba(0, 0, 0, 0.2800)"
                 }
               }
             },
@@ -1786,6 +1774,23 @@
           "forerground": {
             "main": {
               "value": "#ffffff"
+            }
+          }
+        },
+        "carousel_dots": {
+          "background": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0600)"
+            }
+          },
+          "dots": {
+            "background": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0600)"
+              },
+              "active": {
+                "value": "rgba(0, 0, 0, 0.7000)"
+              }
             }
           }
         },
@@ -3452,6 +3457,23 @@
               }
             }
           },
+          "badge": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.7500)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            }
+          },
           "asset_animation": {
             "water_fill": {
               "start": {
@@ -3485,19 +3507,12 @@
               }
             }
           },
-          "badge": {
+          "segmented_picker": {
             "background": {
               "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.7500)"
-              }
-            },
-            "border": {
-              "main": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              },
+              "active": {
                 "value": "rgba(255, 255, 255, 0.1200)"
               }
             }
@@ -3512,16 +3527,6 @@
               }
             }
           },
-          "segmented_picker": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0600)"
-              },
-              "active": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            }
-          },
           "foreground": {
             "main": {
               "value": "#ffffff"
@@ -3531,45 +3536,11 @@
             }
           }
         },
-        "carousel_dots": {
-          "background": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0500)"
-            }
-          },
-          "dots": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.2800)"
-              },
-              "active": {
-                "value": "rgba(255, 255, 255, 0.7500)"
-              }
-            }
-          }
-        },
         "insights": {
           "graphs": {
             "foreground": {
               "description": {
                 "value": "#798695"
-              }
-            },
-            "movements": {
-              "background": {
-                "gradient_start": {
-                  "value": "rgba(219, 233, 253, 0.2000)"
-                },
-                "gradient_end": {
-                  "value": "rgba(219, 233, 253, 0.6000)"
-                }
-              }
-            },
-            "tooltip": {
-              "background": {
-                "main": {
-                  "value": "rgba(219, 233, 253, 0.0900)"
-                }
               }
             },
             "background": {
@@ -3618,6 +3589,28 @@
                 }
               }
             },
+            "movements": {
+              "background": {
+                "gradient_start": {
+                  "value": "rgba(219, 233, 253, 0.2000)"
+                },
+                "gradient_end": {
+                  "value": "rgba(219, 233, 253, 0.6000)"
+                }
+              }
+            },
+            "tooltip": {
+              "background": {
+                "main": {
+                  "value": "rgba(219, 233, 253, 0.3300)"
+                }
+              },
+              "foreground": {
+                "main": {
+                  "value": "#ffffff"
+                }
+              }
+            },
             "border": {
               "main": {
                 "value": "rgba(219, 233, 253, 0.1200)"
@@ -3627,20 +3620,20 @@
               }
             },
             "breath_rate": {
-              "foreground": {
-                "active": {
-                  "value": "#679feb"
-                },
-                "average": {
-                  "value": "rgba(255, 255, 255, 0.6000)"
-                }
-              },
               "background": {
                 "gradient_0": {
                   "value": "rgba(114, 174, 255, 0.1400)"
                 },
                 "gradient_100": {
                   "value": "rgba(114, 174, 255, 0.0000)"
+                }
+              },
+              "foreground": {
+                "active": {
+                  "value": "#679feb"
+                },
+                "average": {
+                  "value": "rgba(255, 255, 255, 0.6000)"
                 }
               }
             },
@@ -3744,6 +3737,23 @@
           "forerground": {
             "main": {
               "value": "rgba(255, 255, 255, 0.7500)"
+            }
+          }
+        },
+        "carousel_dots": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0500)"
+            }
+          },
+          "dots": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.2800)"
+              },
+              "active": {
+                "value": "rgba(255, 255, 255, 0.7500)"
+              }
             }
           }
         },
