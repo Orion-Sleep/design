@@ -3602,7 +3602,7 @@
             "tooltip": {
               "background": {
                 "main": {
-                  "value": "rgba(233, 242, 255, 0.7600)"
+                  "value": "rgba(233, 242, 255, 0.6600)"
                 }
               },
               "foreground": {
