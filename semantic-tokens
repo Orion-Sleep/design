@@ -7,28 +7,6 @@
             "value": "12px"
           }
         },
-        "buttons": {
-          "icon": {
-            "main": {
-              "value": "20px"
-            }
-          },
-          "secondary": {
-            "main": {
-              "value": "32px"
-            }
-          },
-          "tertiary": {
-            "main": {
-              "value": "32px"
-            }
-          }
-        },
-        "temperature_control": {
-          "overlay": {
-            "value": "74px"
-          }
-        },
         "cards": {
           "default": {
             "main": {
@@ -51,9 +29,65 @@
             }
           }
         },
+        "temperature_control": {
+          "overlay": {
+            "value": "74px"
+          }
+        },
+        "buttons": {
+          "icon": {
+            "main": {
+              "value": "20px"
+            }
+          },
+          "secondary": {
+            "main": {
+              "value": "32px"
+            }
+          },
+          "tertiary": {
+            "main": {
+              "value": "32px"
+            }
+          }
+        },
         "mattress_tooltip": {
           "main": {
             "value": "10px"
+          }
+        },
+        "orion_intelligence": {
+          "card": {
+            "main": {
+              "value": "90px"
+            },
+            "secondary": {
+              "value": "56px"
+            }
+          }
+        },
+        "overlay": {
+          "device_management": {
+            "value": "24px"
+          },
+          "device_onboarding": {
+            "value": "64px"
+          }
+        },
+        "device_onboarding": {
+          "cards": {
+            "default": {
+              "main": {
+                "value": "56px"
+              }
+            }
+          },
+          "settings": {
+            "cell": {
+              "default": {
+                "value": "30px"
+              }
+            }
           }
         },
         "insights": {
@@ -86,27 +120,9 @@
             }
           }
         },
-        "orion_intelligence": {
-          "card": {
-            "main": {
-              "value": "90px"
-            },
-            "secondary": {
-              "value": "56px"
-            }
-          }
-        },
-        "schedule": {
-          "overlay": {
-            "value": "38px"
-          }
-        },
-        "overlay": {
-          "device_management": {
-            "value": "24px"
-          },
-          "device_onboarding": {
-            "value": "64px"
+        "carousel_dots": {
+          "main": {
+            "value": "56px"
           }
         },
         "smart_temperature": {
@@ -117,25 +133,9 @@
             "value": "8px"
           }
         },
-        "carousel_dots": {
-          "main": {
-            "value": "56px"
-          }
-        },
-        "device_onboarding": {
-          "cards": {
-            "default": {
-              "main": {
-                "value": "56px"
-              }
-            }
-          },
-          "settings": {
-            "cell": {
-              "default": {
-                "value": "30px"
-              }
-            }
+        "schedule": {
+          "overlay": {
+            "value": "38px"
           }
         },
         "blur": {
@@ -180,75 +180,6 @@
             }
           }
         },
-        "inputs": {
-          "text_input": {
-            "border": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.2000)"
-              },
-              "active": {
-                "value": "#72aeff"
-              },
-              "disabled": {
-                "value": "rgba(0, 0, 0, 0.0900)"
-              },
-              "error": {
-                "value": "#f74847"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#292929"
-              },
-              "placeholder": {
-                "value": "#9a9a98"
-              },
-              "disabled": {
-                "value": "rgba(0, 0, 0, 0.2800)"
-              }
-            }
-          },
-          "radio": {
-            "foreground": {
-              "main": {
-                "value": "#ffffff"
-              }
-            },
-            "background": {
-              "active": {
-                "value": "#257af4"
-              },
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0000)"
-              }
-            },
-            "border": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.2000)"
-              }
-            }
-          },
-          "checkbox": {
-            "background": {
-              "active": {
-                "value": "#257af4"
-              },
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0000)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#ffffff"
-              }
-            },
-            "border": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.2000)"
-              }
-            }
-          }
-        },
         "toggle": {
           "background": {
             "main": {
@@ -259,152 +190,6 @@
             },
             "knob": {
               "value": "#ffffff"
-            }
-          }
-        },
-        "information_chip": {
-          "background": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0500)"
-            }
-          },
-          "foreground": {
-            "main": {
-              "value": "#292929"
-            }
-          },
-          "border": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0900)"
-            }
-          },
-          "shadow": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0400)"
-            }
-          }
-        },
-        "fills": {
-          "foreground": {
-            "main": {
-              "value": "#292929"
-            },
-            "description": {
-              "value": "#9a9a98"
-            }
-          },
-          "background": {
-            "main": {
-              "value": "#f2eee7"
-            },
-            "main_transparent": {
-              "value": "rgba(242, 238, 231, 0.0000)"
-            },
-            "main_transparent_secondary": {
-              "value": "rgba(242, 238, 231, 0.6000)"
-            },
-            "divider": {
-              "value": "rgba(0, 0, 0, 0.0900)"
-            },
-            "sheet": {
-              "main": {
-                "value": "#f2eee7"
-              },
-              "main_transparent": {
-                "value": "rgba(242, 238, 231, 0.0000)"
-              },
-              "grabber": {
-                "value": "#d6d6d6"
-              }
-            }
-          },
-          "primary": {
-            "foreground": {
-              "main": {
-                "value": "#257af4"
-              }
-            },
-            "background": {
-              "main": {
-                "value": "#257af4"
-              },
-              "faded": {
-                "value": "rgba(37, 122, 244, 0.0900)"
-              },
-              "main_transparent": {
-                "value": "rgba(37, 122, 244, 0.0000)"
-              }
-            }
-          },
-          "destructive": {
-            "background": {
-              "faded": {
-                "value": "rgba(247, 72, 71, 0.0900)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#f74847"
-              }
-            }
-          },
-          "positive": {
-            "background": {
-              "faded": {
-                "value": "rgba(32, 225, 106, 0.1100)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#179e49"
-              }
-            }
-          },
-          "white": {
-            "value": "#ffffff"
-          },
-          "orion_intelligence": {
-            "foreground": {
-              "gradient_0": {
-                "value": "#4d9aff"
-              },
-              "gradient_50": {
-                "value": "#85b4f5"
-              },
-              "gradient_100": {
-                "value": "#418bf5"
-              }
-            },
-            "overlay": {
-              "main": {
-                "value": "#d8e9ff"
-              }
-            }
-          },
-          "accent": {
-            "value": "#257af4"
-          },
-          "information": {
-            "foreground": {
-              "main": {
-                "value": "#ff9a3c"
-              }
-            }
-          },
-          "warning": {
-            "foreground": {
-              "value": "#d3ab5b"
-            },
-            "background": {
-              "value": "rgba(205, 137, 0, 0.1200)"
-            }
-          },
-          "fill_water": {
-            "foreground": {
-              "value": "#2ea4f2"
-            },
-            "overlay": {
-              "value": "rgba(255, 255, 255, 0.0000)"
             }
           }
         },
@@ -631,6 +416,221 @@
               "main": {
                 "value": "rgba(0, 0, 0, 0.6000)"
               }
+            }
+          }
+        },
+        "inputs": {
+          "text_input": {
+            "border": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              },
+              "active": {
+                "value": "#72aeff"
+              },
+              "disabled": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              },
+              "error": {
+                "value": "#f74847"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "placeholder": {
+                "value": "#9a9a98"
+              },
+              "disabled": {
+                "value": "rgba(0, 0, 0, 0.2800)"
+              }
+            }
+          },
+          "radio": {
+            "background": {
+              "active": {
+                "value": "#257af4"
+              },
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              }
+            }
+          },
+          "checkbox": {
+            "background": {
+              "active": {
+                "value": "#257af4"
+              },
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.2000)"
+              }
+            }
+          }
+        },
+        "information_chip": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0500)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#292929"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0900)"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0400)"
+            }
+          }
+        },
+        "fills": {
+          "foreground": {
+            "main": {
+              "value": "#292929"
+            },
+            "description": {
+              "value": "#9a9a98"
+            }
+          },
+          "background": {
+            "main": {
+              "value": "#f2eee7"
+            },
+            "main_transparent": {
+              "value": "rgba(242, 238, 231, 0.0000)"
+            },
+            "main_transparent_secondary": {
+              "value": "rgba(242, 238, 231, 0.6000)"
+            },
+            "divider": {
+              "value": "rgba(0, 0, 0, 0.0900)"
+            },
+            "sheet": {
+              "main": {
+                "value": "#f2eee7"
+              },
+              "main_transparent": {
+                "value": "rgba(242, 238, 231, 0.0000)"
+              },
+              "grabber": {
+                "value": "#d6d6d6"
+              }
+            }
+          },
+          "primary": {
+            "foreground": {
+              "main": {
+                "value": "#257af4"
+              }
+            },
+            "background": {
+              "main": {
+                "value": "#257af4"
+              },
+              "faded": {
+                "value": "rgba(37, 122, 244, 0.0900)"
+              },
+              "main_transparent": {
+                "value": "rgba(37, 122, 244, 0.0000)"
+              }
+            }
+          },
+          "destructive": {
+            "background": {
+              "faded": {
+                "value": "rgba(247, 72, 71, 0.0900)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#f74847"
+              }
+            }
+          },
+          "positive": {
+            "background": {
+              "faded": {
+                "value": "rgba(32, 225, 106, 0.1100)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#179e49"
+              }
+            }
+          },
+          "white": {
+            "value": "#ffffff"
+          },
+          "orion_intelligence": {
+            "foreground": {
+              "gradient_0": {
+                "value": "#4d9aff"
+              },
+              "gradient_50": {
+                "value": "#85b4f5"
+              },
+              "gradient_100": {
+                "value": "#418bf5"
+              }
+            },
+            "overlay": {
+              "main": {
+                "value": "#d8e9ff"
+              }
+            }
+          },
+          "accent": {
+            "value": "#257af4"
+          },
+          "information": {
+            "foreground": {
+              "main": {
+                "value": "#ff9a3c"
+              }
+            }
+          },
+          "warning": {
+            "foreground": {
+              "value": "#d3ab5b"
+            },
+            "background": {
+              "value": "rgba(205, 137, 0, 0.1200)"
+            }
+          },
+          "fill_water": {
+            "foreground": {
+              "value": "#2ea4f2"
+            },
+            "overlay": {
+              "value": "rgba(255, 255, 255, 0.0000)"
             }
           }
         },
@@ -922,17 +922,17 @@
                 "value": "rgba(255, 255, 255, 0.0500)"
               }
             },
+            "shadow": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
+              }
+            },
             "foreground": {
               "main": {
                 "value": "#ffffff"
               },
               "disabled": {
                 "value": "#9a9a98"
-              }
-            },
-            "shadow": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.0900)"
               }
             }
           },
@@ -1281,44 +1281,7 @@
             }
           }
         },
-        "welcome": {
-          "overlay": {
-            "gradient_0": {
-              "value": "rgba(10, 10, 10, 0.3000)"
-            },
-            "gradient_30": {
-              "value": "rgba(10, 10, 10, 0.0000)"
-            },
-            "gradient_50": {
-              "value": "rgba(10, 10, 10, 0.1000)"
-            },
-            "gradient_85": {
-              "value": "rgba(10, 10, 10, 0.6600)"
-            },
-            "gradient_100": {
-              "value": "rgba(10, 10, 10, 0.7000)"
-            }
-          }
-        },
         "settings": {
-          "option_button": {
-            "background": {
-              "main": {
-                "value": "#fdfcfa"
-              },
-              "active": {
-                "value": "rgba(37, 122, 244, 0.1000)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#292929"
-              },
-              "active": {
-                "value": "#257af4"
-              }
-            }
-          },
           "cell": {
             "background": {
               "main": {
@@ -1337,6 +1300,24 @@
               }
             }
           },
+          "option_button": {
+            "background": {
+              "main": {
+                "value": "#fdfcfa"
+              },
+              "active": {
+                "value": "rgba(37, 122, 244, 0.1000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#292929"
+              },
+              "active": {
+                "value": "#257af4"
+              }
+            }
+          },
           "footer": {
             "foreground": {
               "main": {
@@ -1349,6 +1330,25 @@
               "main": {
                 "value": "#292929"
               }
+            }
+          }
+        },
+        "welcome": {
+          "overlay": {
+            "gradient_0": {
+              "value": "rgba(10, 10, 10, 0.3000)"
+            },
+            "gradient_30": {
+              "value": "rgba(10, 10, 10, 0.0000)"
+            },
+            "gradient_50": {
+              "value": "rgba(10, 10, 10, 0.1000)"
+            },
+            "gradient_85": {
+              "value": "rgba(10, 10, 10, 0.6600)"
+            },
+            "gradient_100": {
+              "value": "rgba(10, 10, 10, 0.7000)"
             }
           }
         },
@@ -1453,6 +1453,43 @@
               }
             }
           },
+          "segmented_picker": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              },
+              "active": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            }
+          },
+          "badge": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.7500)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            }
+          },
+          "progress": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              },
+              "active": {
+                "value": "rgba(219, 233, 253, 0.7500)"
+              }
+            }
+          },
           "asset_animation": {
             "water_fill": {
               "start": {
@@ -1483,43 +1520,6 @@
               },
               "complete": {
                 "value": "#7cb9ff"
-              }
-            }
-          },
-          "badge": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.7500)"
-              }
-            },
-            "border": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            }
-          },
-          "segmented_picker": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0600)"
-              },
-              "active": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            }
-          },
-          "progress": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              },
-              "active": {
-                "value": "rgba(219, 233, 253, 0.7500)"
               }
             }
           },
@@ -1578,20 +1578,88 @@
             }
           }
         },
+        "maintenance": {
+          "overlay": {
+            "gradient_0": {
+              "value": "rgba(242, 238, 231, 0.0000)"
+            },
+            "gradient_40": {
+              "value": "rgba(242, 238, 231, 0.0000)"
+            },
+            "gradient_70": {
+              "value": "#f2eee7"
+            },
+            "gradient_100": {
+              "value": "#f2eee7"
+            }
+          }
+        },
+        "avatar": {
+          "background": {
+            "gradient_0": {
+              "value": "#c2c6cf"
+            },
+            "gradient_100": {
+              "value": "#a5a8ad"
+            }
+          },
+          "forerground": {
+            "main": {
+              "value": "#ffffff"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "#f2eee7"
+            },
+            "secondary": {
+              "value": "rgba(0, 0, 0, 0.0600)"
+            }
+          }
+        },
+        "carousel_dots": {
+          "background": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0600)"
+            }
+          },
+          "dots": {
+            "background": {
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0600)"
+              },
+              "active": {
+                "value": "rgba(0, 0, 0, 0.7000)"
+              }
+            }
+          }
+        },
         "insights": {
           "graphs": {
             "foreground": {
+              "medium": {
+                "value": "#a8c3fe"
+              },
               "description": {
                 "value": "#9a9a98"
               },
               "heavy": {
                 "value": "#749ef3"
               },
-              "medium": {
-                "value": "#a8c3fe"
-              },
               "light": {
                 "value": "#dfedff"
+              }
+            },
+            "tooltip": {
+              "background": {
+                "main": {
+                  "value": "rgba(0, 0, 0, 0.5400)"
+                }
+              },
+              "foreground": {
+                "main": {
+                  "value": "#ffffff"
+                }
               }
             },
             "movements": {
@@ -1604,18 +1672,6 @@
                 },
                 "main": {
                   "value": "rgba(0, 0, 0, 0.0600)"
-                }
-              }
-            },
-            "tooltip": {
-              "background": {
-                "main": {
-                  "value": "rgba(0, 0, 0, 0.5400)"
-                }
-              },
-              "foreground": {
-                "main": {
-                  "value": "#ffffff"
                 }
               }
             },
@@ -1723,74 +1779,6 @@
             }
           }
         },
-        "avatar": {
-          "background": {
-            "gradient_0": {
-              "value": "#c2c6cf"
-            },
-            "gradient_100": {
-              "value": "#a5a8ad"
-            }
-          },
-          "forerground": {
-            "main": {
-              "value": "#ffffff"
-            }
-          },
-          "border": {
-            "main": {
-              "value": "#f2eee7"
-            },
-            "secondary": {
-              "value": "rgba(0, 0, 0, 0.0600)"
-            }
-          }
-        },
-        "maintenance": {
-          "overlay": {
-            "gradient_0": {
-              "value": "rgba(242, 238, 231, 0.0000)"
-            },
-            "gradient_40": {
-              "value": "rgba(242, 238, 231, 0.0000)"
-            },
-            "gradient_70": {
-              "value": "#f2eee7"
-            },
-            "gradient_100": {
-              "value": "#f2eee7"
-            }
-          }
-        },
-        "context_overlay": {
-          "background": {
-            "main": {
-              "value": "#ffffff"
-            }
-          },
-          "border": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0600)"
-            }
-          }
-        },
-        "carousel_dots": {
-          "background": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0600)"
-            }
-          },
-          "dots": {
-            "background": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.0600)"
-              },
-              "active": {
-                "value": "rgba(0, 0, 0, 0.7000)"
-              }
-            }
-          }
-        },
         "dial": {
           "background": {
             "main": {
@@ -1818,6 +1806,18 @@
             },
             "tertiary": {
               "value": "rgba(0, 0, 0, 0.2000)"
+            }
+          }
+        },
+        "context_overlay": {
+          "background": {
+            "main": {
+              "value": "#ffffff"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(0, 0, 0, 0.0600)"
             }
           }
         },
@@ -1891,10 +1891,27 @@
               }
             }
           },
+          "foreground": {
+            "description": {
+              "value": "#8e8d8d"
+            },
+            "light": {
+              "value": "#fff7e7"
+            },
+            "heavy": {
+              "value": "#b4a28b"
+            },
+            "medium": {
+              "value": "#efd5ad"
+            }
+          },
           "cards": {
             "background": {
               "main": {
                 "value": "#211f1d"
+              },
+              "secondary": {
+                "value": "#171513"
               }
             },
             "border": {
@@ -1910,16 +1927,11 @@
             "secondary": {
               "value": "rgba(255, 255, 255, 0.2800)"
             },
+            "tertiary": {
+              "value": "rgba(255, 255, 255, 0.2000)"
+            },
             "marker": {
               "value": "#ffffff"
-            }
-          },
-          "foreground": {
-            "description": {
-              "value": "#848383"
-            },
-            "heavy": {
-              "value": "#b4a28b"
             }
           },
           "background": {
@@ -1927,27 +1939,43 @@
               "value": "#0d0c0b"
             },
             "light": {
-              "value": "#fff3dc"
+              "value": "#fff3dc",
+              "gradient_0": {
+                "value": "rgba(255, 243, 220, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(255, 243, 220, 0.1400)"
+              }
             },
             "medium": {
-              "value": "#e5caa2"
+              "value": "#e5caa2",
+              "gradient_0": {
+                "value": "rgba(229, 202, 162, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(229, 202, 162, 0.1400)"
+              }
             },
             "heavy": {
-              "value": "#988273"
+              "value": "#988273",
+              "gradient_0": {
+                "value": "rgba(152, 130, 115, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(152, 130, 115, 0.1400)"
+              }
             },
             "x-heavy": {
-              "value": "#f2bf79"
+              "value": "#f2bf79",
+              "gradient_0": {
+                "value": "rgba(242, 191, 121, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(242, 191, 121, 0.1400)"
+              }
             },
             "progress": {
               "value": "rgba(255, 255, 255, 0.0600)"
-            },
-            "sleep_debt": {
-              "gradient_0": {
-                "value": "rgba(140, 126, 109, 0.0000)"
-              },
-              "gradient_100": {
-                "value": "rgba(140, 126, 109, 0.1400)"
-              }
             }
           },
           "progress": {
@@ -2109,28 +2137,6 @@
             "value": "12px"
           }
         },
-        "buttons": {
-          "icon": {
-            "main": {
-              "value": "20px"
-            }
-          },
-          "secondary": {
-            "main": {
-              "value": "32px"
-            }
-          },
-          "tertiary": {
-            "main": {
-              "value": "32px"
-            }
-          }
-        },
-        "temperature_control": {
-          "overlay": {
-            "value": "74px"
-          }
-        },
         "cards": {
           "default": {
             "main": {
@@ -2153,9 +2159,65 @@
             }
           }
         },
+        "temperature_control": {
+          "overlay": {
+            "value": "74px"
+          }
+        },
+        "buttons": {
+          "icon": {
+            "main": {
+              "value": "20px"
+            }
+          },
+          "secondary": {
+            "main": {
+              "value": "32px"
+            }
+          },
+          "tertiary": {
+            "main": {
+              "value": "32px"
+            }
+          }
+        },
         "mattress_tooltip": {
           "main": {
             "value": "10px"
+          }
+        },
+        "orion_intelligence": {
+          "card": {
+            "main": {
+              "value": "90px"
+            },
+            "secondary": {
+              "value": "56px"
+            }
+          }
+        },
+        "overlay": {
+          "device_management": {
+            "value": "24px"
+          },
+          "device_onboarding": {
+            "value": "64px"
+          }
+        },
+        "device_onboarding": {
+          "cards": {
+            "default": {
+              "main": {
+                "value": "56px"
+              }
+            }
+          },
+          "settings": {
+            "cell": {
+              "default": {
+                "value": "30px"
+              }
+            }
           }
         },
         "insights": {
@@ -2188,27 +2250,9 @@
             }
           }
         },
-        "orion_intelligence": {
-          "card": {
-            "main": {
-              "value": "90px"
-            },
-            "secondary": {
-              "value": "56px"
-            }
-          }
-        },
-        "schedule": {
-          "overlay": {
-            "value": "38px"
-          }
-        },
-        "overlay": {
-          "device_management": {
-            "value": "24px"
-          },
-          "device_onboarding": {
-            "value": "64px"
+        "carousel_dots": {
+          "main": {
+            "value": "56px"
           }
         },
         "smart_temperature": {
@@ -2219,25 +2263,9 @@
             "value": "8px"
           }
         },
-        "carousel_dots": {
-          "main": {
-            "value": "56px"
-          }
-        },
-        "device_onboarding": {
-          "cards": {
-            "default": {
-              "main": {
-                "value": "56px"
-              }
-            }
-          },
-          "settings": {
-            "cell": {
-              "default": {
-                "value": "30px"
-              }
-            }
+        "schedule": {
+          "overlay": {
+            "value": "38px"
           }
         },
         "blur": {
@@ -2282,75 +2310,6 @@
             }
           }
         },
-        "inputs": {
-          "text_input": {
-            "border": {
-              "main": {
-                "value": "rgba(219, 233, 253, 0.3600)"
-              },
-              "active": {
-                "value": "#4c92f6"
-              },
-              "disabled": {
-                "value": "rgba(219, 233, 253, 0.1200)"
-              },
-              "error": {
-                "value": "#fa6a6a"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#ffffff"
-              },
-              "placeholder": {
-                "value": "rgba(219, 233, 253, 0.4800)"
-              },
-              "disabled": {
-                "value": "rgba(219, 233, 253, 0.3600)"
-              }
-            }
-          },
-          "radio": {
-            "foreground": {
-              "main": {
-                "value": "#ffffff"
-              }
-            },
-            "background": {
-              "active": {
-                "value": "#4c92f6"
-              },
-              "main": {
-                "value": "rgba(219, 233, 253, 0.0500)"
-              }
-            },
-            "border": {
-              "main": {
-                "value": "rgba(219, 233, 253, 0.2000)"
-              }
-            }
-          },
-          "checkbox": {
-            "background": {
-              "active": {
-                "value": "#4c92f6"
-              },
-              "main": {
-                "value": "rgba(219, 233, 253, 0.0500)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#ffffff"
-              }
-            },
-            "border": {
-              "main": {
-                "value": "rgba(219, 233, 253, 0.2000)"
-              }
-            }
-          }
-        },
         "toggle": {
           "background": {
             "main": {
@@ -2361,152 +2320,6 @@
             },
             "knob": {
               "value": "#ffffff"
-            }
-          }
-        },
-        "information_chip": {
-          "background": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0600)"
-            }
-          },
-          "foreground": {
-            "main": {
-              "value": "#ffffff"
-            }
-          },
-          "border": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0600)"
-            }
-          },
-          "shadow": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0000)"
-            }
-          }
-        },
-        "fills": {
-          "foreground": {
-            "main": {
-              "value": "#f9f8f7"
-            },
-            "description": {
-              "value": "#798695"
-            }
-          },
-          "background": {
-            "main": {
-              "value": "#040b13"
-            },
-            "main_transparent": {
-              "value": "rgba(4, 11, 19, 0.0000)"
-            },
-            "main_transparent_secondary": {
-              "value": "rgba(4, 11, 19, 0.6000)"
-            },
-            "divider": {
-              "value": "rgba(255, 255, 255, 0.1200)"
-            },
-            "sheet": {
-              "main": {
-                "value": "#10171f"
-              },
-              "main_transparent": {
-                "value": "rgba(16, 23, 31, 0.0000)"
-              },
-              "grabber": {
-                "value": "#2c3b4d"
-              }
-            }
-          },
-          "primary": {
-            "foreground": {
-              "main": {
-                "value": "#4c92f6"
-              }
-            },
-            "background": {
-              "main": {
-                "value": "#4c92f6"
-              },
-              "faded": {
-                "value": "rgba(76, 146, 246, 0.1200)"
-              },
-              "main_transparent": {
-                "value": "rgba(76, 146, 246, 0.0000)"
-              }
-            }
-          },
-          "destructive": {
-            "background": {
-              "faded": {
-                "value": "rgba(250, 106, 106, 0.1200)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#ff8585"
-              }
-            }
-          },
-          "positive": {
-            "background": {
-              "faded": {
-                "value": "rgba(42, 200, 92, 0.1100)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#76e89a"
-              }
-            }
-          },
-          "white": {
-            "value": "#ffffff"
-          },
-          "orion_intelligence": {
-            "foreground": {
-              "gradient_0": {
-                "value": "#5fa0f6"
-              },
-              "gradient_50": {
-                "value": "#90b9f1"
-              },
-              "gradient_100": {
-                "value": "#70abff"
-              }
-            },
-            "overlay": {
-              "main": {
-                "value": "rgba(101, 165, 255, 0.2700)"
-              }
-            }
-          },
-          "accent": {
-            "value": "#4c92f6"
-          },
-          "information": {
-            "foreground": {
-              "main": {
-                "value": "#ffab62"
-              }
-            }
-          },
-          "warning": {
-            "foreground": {
-              "value": "#f2c07e"
-            },
-            "background": {
-              "value": "rgba(255, 184, 92, 0.1000)"
-            }
-          },
-          "fill_water": {
-            "foreground": {
-              "value": "#6dc3fc"
-            },
-            "overlay": {
-              "value": "rgba(219, 233, 253, 0.1200)"
             }
           }
         },
@@ -2733,6 +2546,221 @@
               "main": {
                 "value": "rgba(219, 233, 253, 0.2000)"
               }
+            }
+          }
+        },
+        "inputs": {
+          "text_input": {
+            "border": {
+              "main": {
+                "value": "rgba(219, 233, 253, 0.3600)"
+              },
+              "active": {
+                "value": "#4c92f6"
+              },
+              "disabled": {
+                "value": "rgba(219, 233, 253, 0.1200)"
+              },
+              "error": {
+                "value": "#fa6a6a"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              },
+              "placeholder": {
+                "value": "rgba(219, 233, 253, 0.4800)"
+              },
+              "disabled": {
+                "value": "rgba(219, 233, 253, 0.3600)"
+              }
+            }
+          },
+          "radio": {
+            "background": {
+              "active": {
+                "value": "#4c92f6"
+              },
+              "main": {
+                "value": "rgba(219, 233, 253, 0.0500)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(219, 233, 253, 0.2000)"
+              }
+            }
+          },
+          "checkbox": {
+            "background": {
+              "active": {
+                "value": "#4c92f6"
+              },
+              "main": {
+                "value": "rgba(219, 233, 253, 0.0500)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ffffff"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(219, 233, 253, 0.2000)"
+              }
+            }
+          }
+        },
+        "information_chip": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
+            }
+          },
+          "foreground": {
+            "main": {
+              "value": "#ffffff"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
+            }
+          },
+          "shadow": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0000)"
+            }
+          }
+        },
+        "fills": {
+          "foreground": {
+            "main": {
+              "value": "#f9f8f7"
+            },
+            "description": {
+              "value": "#798695"
+            }
+          },
+          "background": {
+            "main": {
+              "value": "#040b13"
+            },
+            "main_transparent": {
+              "value": "rgba(4, 11, 19, 0.0000)"
+            },
+            "main_transparent_secondary": {
+              "value": "rgba(4, 11, 19, 0.6000)"
+            },
+            "divider": {
+              "value": "rgba(255, 255, 255, 0.1200)"
+            },
+            "sheet": {
+              "main": {
+                "value": "#10171f"
+              },
+              "main_transparent": {
+                "value": "rgba(16, 23, 31, 0.0000)"
+              },
+              "grabber": {
+                "value": "#2c3b4d"
+              }
+            }
+          },
+          "primary": {
+            "foreground": {
+              "main": {
+                "value": "#4c92f6"
+              }
+            },
+            "background": {
+              "main": {
+                "value": "#4c92f6"
+              },
+              "faded": {
+                "value": "rgba(76, 146, 246, 0.1200)"
+              },
+              "main_transparent": {
+                "value": "rgba(76, 146, 246, 0.0000)"
+              }
+            }
+          },
+          "destructive": {
+            "background": {
+              "faded": {
+                "value": "rgba(250, 106, 106, 0.1200)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#ff8585"
+              }
+            }
+          },
+          "positive": {
+            "background": {
+              "faded": {
+                "value": "rgba(42, 200, 92, 0.1100)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#76e89a"
+              }
+            }
+          },
+          "white": {
+            "value": "#ffffff"
+          },
+          "orion_intelligence": {
+            "foreground": {
+              "gradient_0": {
+                "value": "#5fa0f6"
+              },
+              "gradient_50": {
+                "value": "#90b9f1"
+              },
+              "gradient_100": {
+                "value": "#70abff"
+              }
+            },
+            "overlay": {
+              "main": {
+                "value": "rgba(101, 165, 255, 0.2700)"
+              }
+            }
+          },
+          "accent": {
+            "value": "#4c92f6"
+          },
+          "information": {
+            "foreground": {
+              "main": {
+                "value": "#ffab62"
+              }
+            }
+          },
+          "warning": {
+            "foreground": {
+              "value": "#f2c07e"
+            },
+            "background": {
+              "value": "rgba(255, 184, 92, 0.1000)"
+            }
+          },
+          "fill_water": {
+            "foreground": {
+              "value": "#6dc3fc"
+            },
+            "overlay": {
+              "value": "rgba(219, 233, 253, 0.1200)"
             }
           }
         },
@@ -3008,7 +3036,7 @@
                 "value": "#7c828d"
               },
               "active": {
-                "value": "#4c92f6"
+                "value": "#5298fb"
               }
             }
           },
@@ -3024,17 +3052,17 @@
                 "value": "rgba(255, 255, 255, 0.0500)"
               }
             },
+            "shadow": {
+              "main": {
+                "value": "rgba(64, 77, 96, 0.1500)"
+              }
+            },
             "foreground": {
               "main": {
                 "value": "#ffffff"
               },
               "disabled": {
                 "value": "#7c828d"
-              }
-            },
-            "shadow": {
-              "main": {
-                "value": "rgba(64, 77, 96, 0.1500)"
               }
             }
           },
@@ -3383,44 +3411,7 @@
             }
           }
         },
-        "welcome": {
-          "overlay": {
-            "gradient_0": {
-              "value": "rgba(10, 10, 10, 0.3000)"
-            },
-            "gradient_30": {
-              "value": "rgba(10, 10, 10, 0.0000)"
-            },
-            "gradient_50": {
-              "value": "rgba(10, 10, 10, 0.1000)"
-            },
-            "gradient_85": {
-              "value": "rgba(10, 10, 10, 0.6600)"
-            },
-            "gradient_100": {
-              "value": "rgba(10, 10, 10, 0.7000)"
-            }
-          }
-        },
         "settings": {
-          "option_button": {
-            "background": {
-              "main": {
-                "value": "#10171f"
-              },
-              "active": {
-                "value": "rgba(76, 146, 246, 0.1000)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "#f9f8f7"
-              },
-              "active": {
-                "value": "#4c92f6"
-              }
-            }
-          },
           "cell": {
             "background": {
               "main": {
@@ -3439,6 +3430,24 @@
               }
             }
           },
+          "option_button": {
+            "background": {
+              "main": {
+                "value": "#10171f"
+              },
+              "active": {
+                "value": "rgba(76, 146, 246, 0.1000)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "#f9f8f7"
+              },
+              "active": {
+                "value": "#4c92f6"
+              }
+            }
+          },
           "footer": {
             "foreground": {
               "main": {
@@ -3451,6 +3460,25 @@
               "main": {
                 "value": "#f9f8f7"
               }
+            }
+          }
+        },
+        "welcome": {
+          "overlay": {
+            "gradient_0": {
+              "value": "rgba(10, 10, 10, 0.3000)"
+            },
+            "gradient_30": {
+              "value": "rgba(10, 10, 10, 0.0000)"
+            },
+            "gradient_50": {
+              "value": "rgba(10, 10, 10, 0.1000)"
+            },
+            "gradient_85": {
+              "value": "rgba(10, 10, 10, 0.6600)"
+            },
+            "gradient_100": {
+              "value": "rgba(10, 10, 10, 0.7000)"
             }
           }
         },
@@ -3555,6 +3583,43 @@
               }
             }
           },
+          "segmented_picker": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.0600)"
+              },
+              "active": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            }
+          },
+          "badge": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            },
+            "foreground": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.7500)"
+              }
+            },
+            "border": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              }
+            }
+          },
+          "progress": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.1200)"
+              },
+              "active": {
+                "value": "rgba(219, 233, 253, 0.7500)"
+              }
+            }
+          },
           "asset_animation": {
             "water_fill": {
               "start": {
@@ -3585,43 +3650,6 @@
               },
               "complete": {
                 "value": "#7cb9ff"
-              }
-            }
-          },
-          "badge": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            },
-            "foreground": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.7500)"
-              }
-            },
-            "border": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            }
-          },
-          "segmented_picker": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.0600)"
-              },
-              "active": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              }
-            }
-          },
-          "progress": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.1200)"
-              },
-              "active": {
-                "value": "rgba(219, 233, 253, 0.7500)"
               }
             }
           },
@@ -3680,20 +3708,88 @@
             }
           }
         },
+        "maintenance": {
+          "overlay": {
+            "gradient_0": {
+              "value": "rgba(4, 11, 19, 0.0000)"
+            },
+            "gradient_40": {
+              "value": "rgba(4, 11, 19, 0.0000)"
+            },
+            "gradient_70": {
+              "value": "rgba(4, 11, 19, 0.9000)"
+            },
+            "gradient_100": {
+              "value": "#040b13"
+            }
+          }
+        },
+        "avatar": {
+          "background": {
+            "gradient_0": {
+              "value": "#202831"
+            },
+            "gradient_100": {
+              "value": "#242e39"
+            }
+          },
+          "forerground": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.7500)"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "#040b13"
+            },
+            "secondary": {
+              "value": "rgba(219, 233, 253, 0.0500)"
+            }
+          }
+        },
+        "carousel_dots": {
+          "background": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0500)"
+            }
+          },
+          "dots": {
+            "background": {
+              "main": {
+                "value": "rgba(255, 255, 255, 0.2800)"
+              },
+              "active": {
+                "value": "rgba(255, 255, 255, 0.7500)"
+              }
+            }
+          }
+        },
         "insights": {
           "graphs": {
             "foreground": {
+              "medium": {
+                "value": "#a8c3fe"
+              },
               "description": {
                 "value": "#798695"
               },
               "heavy": {
                 "value": "#749ef3"
               },
-              "medium": {
-                "value": "#a8c3fe"
-              },
               "light": {
                 "value": "#dfedff"
+              }
+            },
+            "tooltip": {
+              "background": {
+                "main": {
+                  "value": "rgba(233, 242, 255, 0.6600)"
+                }
+              },
+              "foreground": {
+                "main": {
+                  "value": "#292929"
+                }
               }
             },
             "movements": {
@@ -3706,18 +3802,6 @@
                 },
                 "main": {
                   "value": "rgba(255, 255, 255, 0.0600)"
-                }
-              }
-            },
-            "tooltip": {
-              "background": {
-                "main": {
-                  "value": "rgba(233, 242, 255, 0.6600)"
-                }
-              },
-              "foreground": {
-                "main": {
-                  "value": "#292929"
                 }
               }
             },
@@ -3825,74 +3909,6 @@
             }
           }
         },
-        "avatar": {
-          "background": {
-            "gradient_0": {
-              "value": "#202831"
-            },
-            "gradient_100": {
-              "value": "#242e39"
-            }
-          },
-          "forerground": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.7500)"
-            }
-          },
-          "border": {
-            "main": {
-              "value": "#040b13"
-            },
-            "secondary": {
-              "value": "rgba(219, 233, 253, 0.0500)"
-            }
-          }
-        },
-        "maintenance": {
-          "overlay": {
-            "gradient_0": {
-              "value": "rgba(4, 11, 19, 0.0000)"
-            },
-            "gradient_40": {
-              "value": "rgba(4, 11, 19, 0.0000)"
-            },
-            "gradient_70": {
-              "value": "rgba(4, 11, 19, 0.9000)"
-            },
-            "gradient_100": {
-              "value": "#040b13"
-            }
-          }
-        },
-        "context_overlay": {
-          "background": {
-            "main": {
-              "value": "#192637"
-            }
-          },
-          "border": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0600)"
-            }
-          }
-        },
-        "carousel_dots": {
-          "background": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0500)"
-            }
-          },
-          "dots": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.2800)"
-              },
-              "active": {
-                "value": "rgba(255, 255, 255, 0.7500)"
-              }
-            }
-          }
-        },
         "dial": {
           "background": {
             "main": {
@@ -3920,6 +3936,18 @@
             },
             "tertiary": {
               "value": "rgba(219, 233, 253, 0.2000)"
+            }
+          }
+        },
+        "context_overlay": {
+          "background": {
+            "main": {
+              "value": "#192637"
+            }
+          },
+          "border": {
+            "main": {
+              "value": "rgba(255, 255, 255, 0.0600)"
             }
           }
         },
@@ -3993,10 +4021,27 @@
               }
             }
           },
+          "foreground": {
+            "description": {
+              "value": "#8e8d8d"
+            },
+            "light": {
+              "value": "#fff7e7"
+            },
+            "heavy": {
+              "value": "#b4a28b"
+            },
+            "medium": {
+              "value": "#efd5ad"
+            }
+          },
           "cards": {
             "background": {
               "main": {
                 "value": "#211f1d"
+              },
+              "secondary": {
+                "value": "#171513"
               }
             },
             "border": {
@@ -4012,16 +4057,11 @@
             "secondary": {
               "value": "rgba(255, 255, 255, 0.2800)"
             },
+            "tertiary": {
+              "value": "rgba(255, 255, 255, 0.2000)"
+            },
             "marker": {
               "value": "#ffffff"
-            }
-          },
-          "foreground": {
-            "description": {
-              "value": "#848383"
-            },
-            "heavy": {
-              "value": "#b4a28b"
             }
           },
           "background": {
@@ -4029,27 +4069,43 @@
               "value": "#0d0c0b"
             },
             "light": {
-              "value": "#fff3dc"
+              "value": "#fff3dc",
+              "gradient_0": {
+                "value": "rgba(255, 243, 220, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(255, 243, 220, 0.1400)"
+              }
             },
             "medium": {
-              "value": "#e5caa2"
+              "value": "#e5caa2",
+              "gradient_0": {
+                "value": "rgba(229, 202, 162, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(229, 202, 162, 0.1400)"
+              }
             },
             "heavy": {
-              "value": "#988273"
+              "value": "#988273",
+              "gradient_0": {
+                "value": "rgba(152, 130, 115, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(152, 130, 115, 0.1400)"
+              }
             },
             "x-heavy": {
-              "value": "#f2bf79"
+              "value": "#f2bf79",
+              "gradient_0": {
+                "value": "rgba(242, 191, 121, 0.0000)"
+              },
+              "gradient_100": {
+                "value": "rgba(242, 191, 121, 0.1400)"
+              }
             },
             "progress": {
               "value": "rgba(255, 255, 255, 0.0600)"
-            },
-            "sleep_debt": {
-              "gradient_0": {
-                "value": "rgba(140, 126, 109, 0.0000)"
-              },
-              "gradient_100": {
-                "value": "rgba(140, 126, 109, 0.1400)"
-              }
             }
           },
           "progress": {
