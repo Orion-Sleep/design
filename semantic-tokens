@@ -1765,7 +1765,7 @@
           "cards": {
             "background": {
               "main": {
-                "value": "rgba(89, 87, 82, 0.7500)"
+                "value": "#403a36"
               },
               "secondary": {
                 "value": "#171513"
@@ -3917,7 +3917,7 @@
           "cards": {
             "background": {
               "main": {
-                "value": "rgba(89, 87, 82, 0.7500)"
+                "value": "#403a36"
               },
               "secondary": {
                 "value": "#171513"
