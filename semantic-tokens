@@ -144,7 +144,7 @@
               "value": "14px"
             },
             "main": {
-              "value": "0.800000011920929px"
+              "value": "0.8px"
             }
           }
         },
@@ -748,6 +748,17 @@
             },
             "disabled": {
               "value": "rgba(0, 0, 0, 0.0400)"
+            },
+            "unsubscribed": {
+              "start": {
+                "value": "rgba(148, 163, 245, 0.1400)"
+              },
+              "mid": {
+                "value": "rgba(148, 163, 245, 0.0500)"
+              },
+              "end": {
+                "value": "rgba(148, 163, 245, 0.0000)"
+              }
             }
           },
           "background": {
@@ -2041,7 +2052,7 @@
               },
               "manual": {
                 "background": {
-                  "value": "rgba(230, 240, 255, 0.5500)"
+                  "value": "#a6b1c4"
                 },
                 "border": {
                   "value": "#e6f0ff"
@@ -2499,6 +2510,13 @@
               "value": "rgba(122, 175, 253, 0.2000)"
             }
           }
+        },
+        "status_card": {
+          "background": {
+            "main": {
+              "value": "rgba(22, 29, 39, 0.4500)"
+            }
+          }
         }
       },
       "shadow": {
@@ -2680,6 +2698,29 @@
               "value": "0px"
             }
           }
+        },
+        "smart_temperature": {
+          "graph": {
+            "point": {
+              "glow": {
+                "x": {
+                  "value": "0px"
+                },
+                "y": {
+                  "value": "0px"
+                },
+                "blur": {
+                  "value": "16px"
+                },
+                "blur_selected": {
+                  "value": "20px"
+                },
+                "blur_card": {
+                  "value": "10px"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -2827,7 +2868,7 @@
               "value": "14px"
             },
             "main": {
-              "value": "0.800000011920929px"
+              "value": "0.8px"
             }
           }
         },
@@ -3309,7 +3350,7 @@
           },
           "fill_water": {
             "foreground": {
-              "value": "#6dc3fc"
+              "value": "#95d0f8"
             },
             "overlay": {
               "value": "rgba(219, 233, 253, 0.1200)"
@@ -3406,31 +3447,42 @@
           },
           "smart_temperature": {
             "cold_1": {
-              "value": "rgba(117, 172, 252, 0.1400)"
+              "value": "rgba(139, 178, 241, 0.1400)"
             },
             "cold_2": {
-              "value": "rgba(77, 145, 243, 0.2200)"
+              "value": "rgba(105, 155, 238, 0.2200)"
             },
             "cold_3": {
-              "value": "rgba(38, 127, 255, 0.2200)"
+              "value": "rgba(74, 134, 234, 0.2200)"
             },
             "hot_1": {
-              "value": "rgba(255, 139, 139, 0.1100)"
+              "value": "rgba(243, 151, 147, 0.1100)"
             },
             "hot_2": {
-              "value": "rgba(255, 103, 103, 0.2200)"
+              "value": "rgba(240, 114, 112, 0.2200)"
             },
             "hot_3": {
-              "value": "rgba(255, 81, 81, 0.1500)"
+              "value": "rgba(237, 64, 74, 0.1500)"
             },
             "equilibrium_0": {
-              "value": "rgba(153, 103, 255, 0.2200)"
+              "value": "rgba(146, 114, 235, 0.2200)"
             },
             "neutral": {
               "value": "rgba(0, 0, 0, 0.0000)"
             },
             "disabled": {
               "value": "rgba(255, 255, 255, 0.0400)"
+            },
+            "unsubscribed": {
+              "start": {
+                "value": "rgba(148, 163, 245, 0.1400)"
+              },
+              "mid": {
+                "value": "rgba(148, 163, 245, 0.0500)"
+              },
+              "end": {
+                "value": "rgba(148, 163, 245, 0.0000)"
+              }
             }
           },
           "background": {
@@ -3585,7 +3637,7 @@
           "v2": {
             "background": {
               "main": {
-                "value": "rgba(190, 212, 250, 0.0800)"
+                "value": "rgba(219, 231, 250, 0.1500)"
               },
               "selected": {
                 "value": "rgba(204, 204, 204, 0.1200)"
@@ -4724,7 +4776,7 @@
               },
               "manual": {
                 "background": {
-                  "value": "rgba(230, 240, 255, 0.5500)"
+                  "value": "#a6b1c4"
                 },
                 "border": {
                   "value": "#e6f0ff"
@@ -5143,7 +5195,7 @@
           },
           "selection": {
             "main": {
-              "value": "rgba(190, 212, 250, 0.0800)"
+              "value": "rgba(219, 231, 250, 0.1500)"
             }
           }
         },
@@ -5164,7 +5216,7 @@
         "glass_card": {
           "background": {
             "main": {
-              "value": "rgba(190, 212, 250, 0.0800)"
+              "value": "rgba(219, 231, 250, 0.1500)"
             },
             "secondary": {
               "value": "rgba(49, 54, 61, 0.4800)"
@@ -5180,6 +5232,13 @@
           "glow": {
             "main": {
               "value": "rgba(122, 175, 253, 0.2000)"
+            }
+          }
+        },
+        "status_card": {
+          "background": {
+            "main": {
+              "value": "rgba(22, 29, 39, 0.4500)"
             }
           }
         }
@@ -5361,6 +5420,29 @@
             },
             "y": {
               "value": "0px"
+            }
+          }
+        },
+        "smart_temperature": {
+          "graph": {
+            "point": {
+              "glow": {
+                "x": {
+                  "value": "0px"
+                },
+                "y": {
+                  "value": "0px"
+                },
+                "blur": {
+                  "value": "16px"
+                },
+                "blur_selected": {
+                  "value": "20px"
+                },
+                "blur_card": {
+                  "value": "10px"
+                }
+              }
             }
           }
         }
