@@ -103,11 +103,11 @@
             "secondary": {
               "value": "56px"
             }
-          }
-        },
-        "carousel_dots": {
-          "main": {
-            "value": "56px"
+          },
+          "suggested": {
+            "line_glow": {
+              "value": "12px"
+            }
           }
         },
         "overlay": {
@@ -164,6 +164,13 @@
           },
           "main": {
             "value": "16px"
+          }
+        },
+        "hot_flash": {
+          "glow": {
+            "main": {
+              "value": "84px"
+            }
           }
         }
       },
@@ -286,12 +293,6 @@
               },
               "selected": {
                 "value": "rgba(106, 168, 255, 0.0800)"
-              },
-              "base": {
-                "value": "#fafaf6"
-              },
-              "secondary": {
-                "value": "#f2f2f0"
               },
               "transparent": {
                 "value": "rgba(0, 0, 0, 0.0400)"
@@ -595,6 +596,13 @@
             "overlay": {
               "main": {
                 "value": "rgba(216, 233, 255, 0.2200)"
+              }
+            },
+            "suggested": {
+              "line_glow": {
+                "end": {
+                  "value": "rgba(126, 172, 237, 0.0000)"
+                }
               }
             }
           },
@@ -913,7 +921,7 @@
         "mattress_tooltip": {
           "background": {
             "main": {
-              "value": "#423e39"
+              "value": "rgba(219, 233, 253, 0.1200)"
             }
           },
           "border": {
@@ -930,22 +938,10 @@
           },
           "foreground": {
             "main": {
-              "value": "#ffffff"
-            }
-          },
-          "v2": {
-            "background": {
-              "main": {
-                "value": "rgba(219, 233, 253, 0.1200)"
-              }
+              "value": "#f6f8fc"
             },
-            "foreground": {
-              "active": {
-                "value": "#f6f8fc"
-              },
-              "inactive": {
-                "value": "#a2a6ab"
-              }
+            "inactive": {
+              "value": "#a2a6ab"
             }
           }
         },
@@ -1915,23 +1911,6 @@
             }
           }
         },
-        "carousel_dots": {
-          "background": {
-            "main": {
-              "value": "rgba(0, 0, 0, 0.0600)"
-            }
-          },
-          "dots": {
-            "background": {
-              "main": {
-                "value": "rgba(0, 0, 0, 0.0600)"
-              },
-              "active": {
-                "value": "rgba(0, 0, 0, 0.7000)"
-              }
-            }
-          }
-        },
         "avatar": {
           "background": {
             "gradient_0": {
@@ -1997,6 +1976,115 @@
               },
               "gradient_85": {
                 "value": "rgba(242, 238, 231, 0.8500)"
+              }
+            },
+            "drag": {
+              "meet_glow": {
+                "value": "rgba(255, 255, 255, 0.2800)"
+              },
+              "meet_line": {
+                "value": "rgba(255, 255, 255, 0.6000)"
+              }
+            },
+            "guide": {
+              "manual": {
+                "end": {
+                  "value": "rgba(245, 247, 252, 0.0000)"
+                },
+                "mid": {
+                  "value": "rgba(245, 247, 252, 0.2200)"
+                },
+                "start": {
+                  "value": "rgba(245, 247, 252, 0.3000)"
+                }
+              },
+              "orion": {
+                "end": {
+                  "value": "rgba(149, 185, 234, 0.0000)"
+                },
+                "mid": {
+                  "value": "rgba(149, 185, 234, 0.2200)"
+                },
+                "start": {
+                  "value": "rgba(149, 185, 234, 0.3000)"
+                }
+              }
+            },
+            "point": {
+              "core": {
+                "end": {
+                  "value": "#bbd2f4"
+                },
+                "end_selected": {
+                  "value": "#8db4f0"
+                },
+                "mid": {
+                  "value": "#e3edfc"
+                },
+                "mid_selected": {
+                  "value": "#bcd3f5"
+                },
+                "start": {
+                  "value": "#b5cef3"
+                },
+                "start_selected": {
+                  "value": "#81acef"
+                }
+              },
+              "glow": {
+                "idle_1": {
+                  "value": "#8fb6ee"
+                },
+                "selected_1": {
+                  "value": "#8fb6ee"
+                }
+              },
+              "manual": {
+                "background": {
+                  "value": "rgba(230, 240, 255, 0.5500)"
+                },
+                "border": {
+                  "value": "#e6f0ff"
+                },
+                "knob": {
+                  "value": "rgba(255, 255, 255, 0.4000)"
+                }
+              },
+              "ring": {
+                "value": "rgba(127, 170, 235, 0.4000)"
+              },
+              "ring_selected": {
+                "value": "rgba(188, 211, 245, 0.5500)"
+              }
+            },
+            "previous": {
+              "line": {
+                "value": "rgba(246, 248, 252, 0.4000)"
+              }
+            },
+            "tooltip": {
+              "background": {
+                "manual": {
+                  "value": "rgba(245, 247, 252, 0.1400)"
+                },
+                "orion": {
+                  "value": "rgba(165, 197, 250, 0.1400)"
+                }
+              }
+            }
+          },
+          "timeline": {
+            "knob": {
+              "main": {
+                "value": "#292929"
+              }
+            },
+            "track": {
+              "elapsed": {
+                "value": "rgba(41, 41, 41, 0.9000)"
+              },
+              "main": {
+                "value": "rgba(0, 0, 0, 0.0900)"
               }
             }
           }
@@ -2404,6 +2492,13 @@
               "value": "rgba(224, 232, 245, 0.1200)"
             }
           }
+        },
+        "hot_flash": {
+          "glow": {
+            "main": {
+              "value": "rgba(122, 175, 253, 0.2000)"
+            }
+          }
         }
       },
       "shadow": {
@@ -2691,11 +2786,11 @@
             "secondary": {
               "value": "56px"
             }
-          }
-        },
-        "carousel_dots": {
-          "main": {
-            "value": "56px"
+          },
+          "suggested": {
+            "line_glow": {
+              "value": "12px"
+            }
           }
         },
         "overlay": {
@@ -2753,6 +2848,13 @@
           "main": {
             "value": "16px"
           }
+        },
+        "hot_flash": {
+          "glow": {
+            "main": {
+              "value": "84px"
+            }
+          }
         }
       },
       "color": {
@@ -2809,7 +2911,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "placeholder": {
                 "value": "#888f98"
@@ -2830,7 +2932,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               }
             },
             "border": {
@@ -2850,7 +2952,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               }
             },
             "border": {
@@ -2867,19 +2969,13 @@
                 "value": "#171c23"
               },
               "main": {
-                "value": "#0e1217"
+                "value": "#101419"
               },
               "main_transparent": {
-                "value": "rgba(14, 18, 23, 0.0000)"
+                "value": "rgba(16, 20, 25, 0.0000)"
               },
               "selected": {
                 "value": "rgba(147, 192, 255, 0.1000)"
-              },
-              "base": {
-                "value": "#080b0e"
-              },
-              "secondary": {
-                "value": "#171c23"
               },
               "transparent": {
                 "value": "rgba(219, 233, 253, 0.0500)"
@@ -2901,7 +2997,7 @@
             },
             "shadow": {
               "main": {
-                "value": "rgba(0, 0, 0, 0.2000)"
+                "value": "rgba(0, 0, 0, 0.0600)"
               },
               "compact": {
                 "value": "rgba(0, 0, 0, 0.0600)"
@@ -2936,44 +3032,44 @@
             },
             "background": {
               "main": {
-                "value": "#0e1217"
+                "value": "#101419"
               },
               "gradient_0": {
-                "value": "#0e1217"
+                "value": "#101419"
               },
               "gradient_22": {
-                "value": "rgba(14, 18, 23, 0.9000)"
+                "value": "rgba(16, 20, 25, 0.9000)"
               },
               "gradient_50": {
-                "value": "rgba(14, 18, 23, 0.0000)"
+                "value": "rgba(16, 20, 25, 0.0000)"
               },
               "gradient_71": {
-                "value": "rgba(14, 18, 23, 0.0000)"
+                "value": "rgba(16, 20, 25, 0.0000)"
               },
               "gradient_86": {
-                "value": "rgba(14, 18, 23, 0.0000)"
+                "value": "rgba(16, 20, 25, 0.0000)"
               },
               "gradient_100": {
-                "value": "#0e1217"
+                "value": "#101419"
               }
             }
           },
           "sleep_test": {
             "background": {
               "main": {
-                "value": "#0e1217"
+                "value": "#101419"
               },
               "main_transparent": {
-                "value": "rgba(14, 18, 23, 0.0000)"
+                "value": "rgba(16, 20, 25, 0.0000)"
               },
               "gradient_0": {
-                "value": "rgba(14, 18, 23, 0.8100)"
+                "value": "rgba(16, 20, 25, 0.8100)"
               },
               "gradient_50": {
-                "value": "rgba(14, 18, 23, 0.6300)"
+                "value": "rgba(16, 20, 25, 0.6300)"
               },
               "gradient_100": {
-                "value": "rgba(14, 18, 23, 0.0000)"
+                "value": "rgba(16, 20, 25, 0.0000)"
               }
             },
             "border": {
@@ -2998,7 +3094,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "active": {
                 "value": "#84b5fb"
@@ -3006,7 +3102,7 @@
             },
             "background": {
               "main": {
-                "value": "#0e1217"
+                "value": "#101419"
               }
             }
           },
@@ -3046,16 +3142,16 @@
             },
             "background": {
               "gradient_0": {
-                "value": "rgba(14, 18, 23, 0.0700)"
+                "value": "rgba(16, 20, 25, 0.0700)"
               },
               "gradient_40": {
-                "value": "rgba(14, 18, 23, 0.1500)"
+                "value": "rgba(16, 20, 25, 0.1500)"
               },
               "gradient_70": {
-                "value": "rgba(14, 18, 23, 0.5000)"
+                "value": "rgba(16, 20, 25, 0.5000)"
               },
               "gradient_100": {
-                "value": "rgba(14, 18, 23, 0.9000)"
+                "value": "rgba(16, 20, 25, 0.9000)"
               },
               "badge": {
                 "value": "rgba(219, 233, 253, 0.2800)"
@@ -3065,16 +3161,16 @@
           "action_card_small": {
             "background": {
               "gradient_0": {
-                "value": "rgba(14, 18, 23, 0.0700)"
+                "value": "rgba(16, 20, 25, 0.0700)"
               },
               "gradient_40": {
-                "value": "rgba(14, 18, 23, 0.1500)"
+                "value": "rgba(16, 20, 25, 0.1500)"
               },
               "gradient_70": {
-                "value": "rgba(14, 18, 23, 0.5000)"
+                "value": "rgba(16, 20, 25, 0.5000)"
               },
               "gradient_100": {
-                "value": "rgba(14, 18, 23, 0.9000)"
+                "value": "rgba(16, 20, 25, 0.9000)"
               }
             }
           },
@@ -3089,7 +3185,7 @@
         "fills": {
           "foreground": {
             "main": {
-              "value": "#f6f8fc"
+              "value": "#fafcff"
             },
             "description": {
               "value": "#888f98"
@@ -3113,10 +3209,10 @@
             },
             "sheet": {
               "main": {
-                "value": "#0e1217"
+                "value": "#101419"
               },
               "main_transparent": {
-                "value": "rgba(14, 18, 23, 0.0000)"
+                "value": "rgba(16, 20, 25, 0.0000)"
               },
               "grabber": {
                 "value": "#30343a"
@@ -3184,6 +3280,13 @@
               "main": {
                 "value": "rgba(132, 181, 251, 0.2200)"
               }
+            },
+            "suggested": {
+              "line_glow": {
+                "end": {
+                  "value": "rgba(126, 172, 237, 0.0000)"
+                }
+              }
             }
           },
           "accent": {
@@ -3237,7 +3340,7 @@
           },
           "foreground": {
             "main": {
-              "value": "#f6f8fc"
+              "value": "#fafcff"
             }
           },
           "border": {
@@ -3343,32 +3446,32 @@
           },
           "asset_animation": {
             "cold_1": {
-              "value": "#7cbcff"
+              "value": "#96b5ff"
             },
             "cold_2": {
-              "value": "#5ea2ff"
+              "value": "#76a0ef"
             },
             "cold_3": {
-              "value": "#5590ff"
+              "value": "#5688e9"
             },
             "equilibrium_0": {
-              "value": "#a084ff"
+              "value": "#9f8aee"
             },
             "hot_1": {
-              "value": "#ff6f6f"
+              "value": "#f07c7a"
             },
             "hot_2": {
-              "value": "#ff5154"
+              "value": "#ef6466"
             },
             "hot_3": {
-              "value": "#ff3939"
+              "value": "#ee5358"
             }
           }
         },
         "temperature_control": {
           "foreground": {
             "active": {
-              "value": "#f6f8fc"
+              "value": "#fafcff"
             },
             "default": {
               "value": "#e6e6e6"
@@ -3447,7 +3550,7 @@
         "segmented_picker": {
           "background": {
             "main": {
-              "value": "#0e1217"
+              "value": "#101419"
             },
             "selected": {
               "value": "#222d3b"
@@ -3463,14 +3566,14 @@
           },
           "foreground": {
             "main": {
-              "value": "#f6f8fc"
+              "value": "#fafcff"
             },
             "description": {
               "main": {
                 "value": "#888f98"
               },
               "active": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               }
             }
           },
@@ -3490,7 +3593,7 @@
             },
             "foreground": {
               "active": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "main": {
                 "value": "#888f98"
@@ -3501,7 +3604,7 @@
         "mattress_tooltip": {
           "background": {
             "main": {
-              "value": "#eaf0f8"
+              "value": "rgba(219, 233, 253, 0.1200)"
             }
           },
           "border": {
@@ -3518,22 +3621,10 @@
           },
           "foreground": {
             "main": {
-              "value": "#292929"
-            }
-          },
-          "v2": {
-            "background": {
-              "main": {
-                "value": "rgba(219, 233, 253, 0.1200)"
-              }
+              "value": "#fafcff"
             },
-            "foreground": {
-              "active": {
-                "value": "#f6f8fc"
-              },
-              "inactive": {
-                "value": "#a2a6ab"
-              }
+            "inactive": {
+              "value": "#a2a6ab"
             }
           }
         },
@@ -3555,7 +3646,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "disabled": {
                 "value": "#7c828d"
@@ -3584,7 +3675,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "disabled": {
                 "value": "#7c828d"
@@ -3605,7 +3696,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "active": {
                 "value": "#2ac85c"
@@ -3637,7 +3728,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "disabled": {
                 "value": "rgba(219, 233, 253, 0.4800)"
@@ -3655,7 +3746,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "disabled": {
                 "value": "#7c828d"
@@ -3673,7 +3764,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "disabled": {
                 "value": "#7c828d"
@@ -3719,22 +3810,22 @@
         "toast": {
           "background": {
             "main": {
-              "value": "#172435"
+              "value": "#171c23"
             }
           },
           "border": {
             "main": {
-              "value": "rgba(219, 233, 253, 0.0600)"
+              "value": "rgba(224, 232, 245, 0.0300)"
             }
           },
           "shadow": {
             "main": {
-              "value": "rgba(255, 255, 255, 0.0600)"
+              "value": "rgba(0, 0, 0, 0.0600)"
             }
           },
           "foreground": {
             "main": {
-              "value": "#f6f8fc"
+              "value": "#fafcff"
             },
             "description": {
               "value": "#888f98"
@@ -3771,7 +3862,7 @@
             },
             "foreground": {
               "icon": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "cool": {
                 "value": "#7eaef1"
@@ -3844,7 +3935,7 @@
             },
             "foreground": {
               "icon": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "soft": {
                 "value": "#73b1dd"
@@ -3960,7 +4051,7 @@
               },
               "foreground": {
                 "main": {
-                  "value": "#f6f8fc"
+                  "value": "#fafcff"
                 },
                 "description": {
                   "value": "#888f98"
@@ -3970,7 +4061,7 @@
           },
           "foreground": {
             "main": {
-              "value": "#f6f8fc"
+              "value": "#fafcff"
             },
             "description": {
               "value": "#888f98"
@@ -3986,7 +4077,7 @@
           "cell": {
             "background": {
               "main": {
-                "value": "#0e1217"
+                "value": "#101419"
               },
               "divider": {
                 "value": "rgba(224, 232, 245, 0.0500)"
@@ -3994,7 +4085,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "icon": {
                 "value": "#888f98"
@@ -4004,7 +4095,7 @@
           "option_button": {
             "background": {
               "main": {
-                "value": "#0e1217"
+                "value": "#101419"
               },
               "active": {
                 "value": "rgba(132, 181, 251, 0.1000)"
@@ -4012,7 +4103,7 @@
             },
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               },
               "active": {
                 "value": "#84b5fb"
@@ -4045,7 +4136,7 @@
           "section_header": {
             "foreground": {
               "main": {
-                "value": "#f6f8fc"
+                "value": "#fafcff"
               }
             }
           }
@@ -4067,7 +4158,7 @@
           },
           "foreground": {
             "description": {
-              "value": "#f6f8fc"
+              "value": "#fafcff"
             }
           }
         },
@@ -4256,7 +4347,7 @@
           },
           "foreground": {
             "main": {
-              "value": "#f6f8fc"
+              "value": "#fafcff"
             },
             "description": {
               "value": "rgba(255, 255, 255, 0.7300)"
@@ -4503,23 +4594,6 @@
             }
           }
         },
-        "carousel_dots": {
-          "background": {
-            "main": {
-              "value": "rgba(255, 255, 255, 0.0500)"
-            }
-          },
-          "dots": {
-            "background": {
-              "main": {
-                "value": "rgba(255, 255, 255, 0.2800)"
-              },
-              "active": {
-                "value": "rgba(255, 255, 255, 0.7500)"
-              }
-            }
-          }
-        },
         "avatar": {
           "background": {
             "gradient_0": {
@@ -4565,10 +4639,10 @@
           },
           "graph": {
             "dot_matrix": {
-              "value": "rgba(246, 248, 252, 0.0600)"
+              "value": "rgba(250, 252, 255, 0.0600)"
             },
             "vertice": {
-              "value": "rgba(246, 248, 252, 0.0800)"
+              "value": "rgba(250, 252, 255, 0.0800)"
             },
             "dot": {
               "value": "rgba(255, 255, 255, 0.4800)"
@@ -4585,6 +4659,115 @@
               },
               "gradient_85": {
                 "value": "rgba(8, 11, 14, 0.8500)"
+              }
+            },
+            "drag": {
+              "meet_glow": {
+                "value": "rgba(255, 255, 255, 0.2800)"
+              },
+              "meet_line": {
+                "value": "rgba(255, 255, 255, 0.6000)"
+              }
+            },
+            "guide": {
+              "manual": {
+                "end": {
+                  "value": "rgba(245, 247, 252, 0.0000)"
+                },
+                "mid": {
+                  "value": "rgba(245, 247, 252, 0.2200)"
+                },
+                "start": {
+                  "value": "rgba(245, 247, 252, 0.3000)"
+                }
+              },
+              "orion": {
+                "end": {
+                  "value": "rgba(149, 185, 234, 0.0000)"
+                },
+                "mid": {
+                  "value": "rgba(149, 185, 234, 0.2200)"
+                },
+                "start": {
+                  "value": "rgba(149, 185, 234, 0.3000)"
+                }
+              }
+            },
+            "point": {
+              "core": {
+                "end": {
+                  "value": "#bbd2f4"
+                },
+                "end_selected": {
+                  "value": "#8db4f0"
+                },
+                "mid": {
+                  "value": "#e3edfc"
+                },
+                "mid_selected": {
+                  "value": "#bcd3f5"
+                },
+                "start": {
+                  "value": "#b5cef3"
+                },
+                "start_selected": {
+                  "value": "#81acef"
+                }
+              },
+              "glow": {
+                "idle_1": {
+                  "value": "#8fb6ee"
+                },
+                "selected_1": {
+                  "value": "#8fb6ee"
+                }
+              },
+              "manual": {
+                "background": {
+                  "value": "rgba(230, 240, 255, 0.5500)"
+                },
+                "border": {
+                  "value": "#e6f0ff"
+                },
+                "knob": {
+                  "value": "rgba(255, 255, 255, 0.4000)"
+                }
+              },
+              "ring": {
+                "value": "rgba(127, 170, 235, 0.4000)"
+              },
+              "ring_selected": {
+                "value": "rgba(188, 211, 245, 0.5500)"
+              }
+            },
+            "previous": {
+              "line": {
+                "value": "rgba(246, 248, 252, 0.4000)"
+              }
+            },
+            "tooltip": {
+              "background": {
+                "manual": {
+                  "value": "rgba(245, 247, 252, 0.1400)"
+                },
+                "orion": {
+                  "value": "rgba(165, 197, 250, 0.1400)"
+                }
+              }
+            }
+          },
+          "timeline": {
+            "knob": {
+              "main": {
+                "value": "#fafcff"
+              }
+            },
+            "track": {
+              "elapsed": {
+                "value": "rgba(224, 232, 244, 0.9000)"
+              },
+              "main": {
+                "value": "rgba(224, 232, 244, 0.1300)"
               }
             }
           }
@@ -4731,7 +4914,7 @@
               "value": "#1c2228"
             },
             "gradient_100": {
-              "value": "#0e1217"
+              "value": "#101419"
             }
           }
         },
@@ -4845,7 +5028,7 @@
               },
               "foreground": {
                 "main": {
-                  "value": "#f6f8fc"
+                  "value": "#fafcff"
                 }
               }
             },
@@ -4990,6 +5173,13 @@
           "divider": {
             "main": {
               "value": "rgba(224, 232, 245, 0.1200)"
+            }
+          }
+        },
+        "hot_flash": {
+          "glow": {
+            "main": {
+              "value": "rgba(122, 175, 253, 0.2000)"
             }
           }
         }
