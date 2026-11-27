@@ -23,9 +23,9 @@
               }
             }
           },
-          "glass": {
+          "glow": {
             "main": {
-              "value": "16px"
+              "value": "44px"
             }
           }
         },
@@ -156,6 +156,14 @@
             "compact": {
               "value": "128px"
             }
+          }
+        },
+        "glass_card": {
+          "device_onboarding": {
+            "value": "32px"
+          },
+          "main": {
+            "value": "16px"
           }
         }
       },
@@ -488,18 +496,6 @@
                 "value": "rgba(0, 0, 0, 0.6000)"
               }
             }
-          },
-          "glass": {
-            "background": {
-              "main": {
-                "value": "rgba(190, 212, 250, 0.0800)"
-              }
-            },
-            "divider": {
-              "main": {
-                "value": "rgba(224, 232, 245, 0.1200)"
-              }
-            }
           }
         },
         "fills": {
@@ -598,7 +594,7 @@
             },
             "overlay": {
               "main": {
-                "value": "#d8e9ff"
+                "value": "rgba(216, 233, 255, 0.2200)"
               }
             }
           },
@@ -852,6 +848,11 @@
                   "value": "rgba(0, 0, 0, 0.0900)"
                 }
               }
+            }
+          },
+          "background": {
+            "main": {
+              "value": "rgba(252, 252, 250, 0.6900)"
             }
           }
         },
@@ -1533,6 +1534,20 @@
               "gradient_100": {
                 "value": "rgba(0, 0, 0, 0.0600)"
               }
+            },
+            "text_fade": {
+              "0": {
+                "value": "rgba(242, 238, 231, 0.0000)"
+              },
+              "100": {
+                "value": "#f2eee7"
+              },
+              "30": {
+                "value": "rgba(242, 238, 231, 0.3000)"
+              },
+              "70": {
+                "value": "rgba(242, 238, 231, 0.7000)"
+              }
             }
           },
           "cards": {
@@ -1972,6 +1987,17 @@
             },
             "vertice_disabled": {
               "value": "rgba(255, 255, 255, 0.0600)"
+            },
+            "overlay": {
+              "gradient_25": {
+                "value": "rgba(242, 238, 231, 0.2500)"
+              },
+              "gradient_30": {
+                "value": "rgba(242, 238, 231, 0.3000)"
+              },
+              "gradient_85": {
+                "value": "rgba(242, 238, 231, 0.8500)"
+              }
             }
           }
         },
@@ -2349,6 +2375,35 @@
               "value": "rgba(190, 212, 250, 0.0800)"
             }
           }
+        },
+        "scrim": {
+          "gradient_0": {
+            "value": "rgba(242, 238, 231, 0.3500)"
+          },
+          "gradient_30": {
+            "value": "rgba(242, 238, 231, 0.0000)"
+          },
+          "gradient_70": {
+            "value": "rgba(242, 238, 231, 0.8000)"
+          },
+          "gradient_100": {
+            "value": "rgba(242, 238, 231, 0.9200)"
+          }
+        },
+        "glass_card": {
+          "background": {
+            "main": {
+              "value": "rgba(190, 212, 250, 0.0800)"
+            },
+            "secondary": {
+              "value": "rgba(49, 54, 61, 0.4800)"
+            }
+          },
+          "divider": {
+            "main": {
+              "value": "rgba(224, 232, 245, 0.1200)"
+            }
+          }
         }
       },
       "shadow": {
@@ -2360,6 +2415,9 @@
               },
               "blur": {
                 "value": "4px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           },
@@ -2370,6 +2428,9 @@
               },
               "blur": {
                 "value": "10px"
+              },
+              "x": {
+                "value": "0px"
               }
             },
             "inner-active": {
@@ -2378,6 +2439,9 @@
               },
               "blur": {
                 "value": "10px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           },
@@ -2388,6 +2452,9 @@
               },
               "blur": {
                 "value": "10px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           }
@@ -2400,6 +2467,9 @@
               },
               "blur": {
                 "value": "16px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           }
@@ -2412,6 +2482,9 @@
               },
               "blur": {
                 "value": "16px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           },
@@ -2423,6 +2496,9 @@
                 },
                 "blur": {
                   "value": "6px"
+                },
+                "x": {
+                  "value": "0px"
                 }
               }
             }
@@ -2434,6 +2510,9 @@
               },
               "blur": {
                 "value": "6px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           }
@@ -2445,6 +2524,9 @@
             },
             "blur": {
               "value": "7px"
+            },
+            "x": {
+              "value": "0px"
             }
           }
         },
@@ -2455,6 +2537,9 @@
             },
             "blur": {
               "value": "16px"
+            },
+            "x": {
+              "value": "0px"
             }
           }
         },
@@ -2466,6 +2551,9 @@
               },
               "blur": {
                 "value": "14px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           }
@@ -2478,6 +2566,9 @@
               },
               "blur": {
                 "value": "10px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           }
@@ -2486,6 +2577,12 @@
           "notifcation_dot": {
             "blur": {
               "value": "8px"
+            },
+            "x": {
+              "value": "0px"
+            },
+            "y": {
+              "value": "0px"
             }
           }
         }
@@ -2514,9 +2611,9 @@
               }
             }
           },
-          "glass": {
+          "glow": {
             "main": {
-              "value": "16px"
+              "value": "44px"
             }
           }
         },
@@ -2648,6 +2745,14 @@
               "value": "128px"
             }
           }
+        },
+        "glass_card": {
+          "device_onboarding": {
+            "value": "32px"
+          },
+          "main": {
+            "value": "16px"
+          }
         }
       },
       "color": {
@@ -2759,7 +2864,7 @@
           "default": {
             "background": {
               "elevated": {
-                "value": "#1c2531"
+                "value": "#171c23"
               },
               "main": {
                 "value": "#0e1217"
@@ -2774,7 +2879,7 @@
                 "value": "#080b0e"
               },
               "secondary": {
-                "value": "#1c2531"
+                "value": "#171c23"
               },
               "transparent": {
                 "value": "rgba(219, 233, 253, 0.0500)"
@@ -2805,10 +2910,10 @@
             "divider": {
               "background": {
                 "main": {
-                  "value": "#2c3b4d"
+                  "value": "#30343a"
                 },
                 "secondary": {
-                  "value": "#2c3b4d"
+                  "value": "#30343a"
                 }
               }
             }
@@ -2919,7 +3024,7 @@
             },
             "background": {
               "main": {
-                "value": "#1c2531"
+                "value": "#171c23"
               },
               "overlay": {
                 "value": "rgba(101, 165, 255, 0.2700)"
@@ -2979,18 +3084,6 @@
                 "value": "rgba(219, 233, 253, 0.2000)"
               }
             }
-          },
-          "glass": {
-            "background": {
-              "main": {
-                "value": "rgba(190, 212, 250, 0.0800)"
-              }
-            },
-            "divider": {
-              "main": {
-                "value": "rgba(224, 232, 245, 0.1200)"
-              }
-            }
           }
         },
         "fills": {
@@ -3020,13 +3113,13 @@
             },
             "sheet": {
               "main": {
-                "value": "#12171c"
+                "value": "#0e1217"
               },
               "main_transparent": {
-                "value": "rgba(18, 23, 28, 0.0000)"
+                "value": "rgba(14, 18, 23, 0.0000)"
               },
               "grabber": {
-                "value": "#2c3b4d"
+                "value": "#30343a"
               }
             }
           },
@@ -3089,7 +3182,7 @@
             },
             "overlay": {
               "main": {
-                "value": "rgba(101, 165, 255, 0.2700)"
+                "value": "rgba(132, 181, 251, 0.2200)"
               }
             }
           },
@@ -3139,7 +3232,7 @@
         "information_chip": {
           "background": {
             "main": {
-              "value": "rgba(255, 255, 255, 0.0600)"
+              "value": "rgba(219, 233, 253, 0.1200)"
             }
           },
           "foreground": {
@@ -3164,22 +3257,22 @@
               "value": "#9fbcff"
             },
             "cold_2": {
-              "value": "#72aeff"
+              "value": "#86acf1"
             },
             "cold_3": {
-              "value": "#5b91ff"
+              "value": "#6594ed"
             },
             "hot_1": {
-              "value": "#ff9292"
+              "value": "#f39a97"
             },
             "hot_2": {
-              "value": "#ff7474"
+              "value": "#f1807e"
             },
             "hot_3": {
-              "value": "#ff6060"
+              "value": "#f06f6f"
             },
             "equilibrium_0": {
-              "value": "#a084ff"
+              "value": "#9f8aee"
             },
             "disabled": {
               "value": "rgba(219, 233, 253, 0.2000)"
@@ -3213,22 +3306,22 @@
               "value": "rgba(117, 172, 252, 0.1400)"
             },
             "cold_2": {
-              "value": "rgba(77, 145, 243, 0.1400)"
+              "value": "rgba(77, 145, 243, 0.2200)"
             },
             "cold_3": {
-              "value": "rgba(38, 127, 255, 0.1500)"
+              "value": "rgba(38, 127, 255, 0.2200)"
             },
             "hot_1": {
               "value": "rgba(255, 139, 139, 0.1100)"
             },
             "hot_2": {
-              "value": "rgba(255, 103, 103, 0.1300)"
+              "value": "rgba(255, 103, 103, 0.2200)"
             },
             "hot_3": {
               "value": "rgba(255, 81, 81, 0.1500)"
             },
             "equilibrium_0": {
-              "value": "rgba(153, 103, 255, 0.1600)"
+              "value": "rgba(153, 103, 255, 0.2200)"
             },
             "neutral": {
               "value": "rgba(0, 0, 0, 0.0000)"
@@ -3344,6 +3437,11 @@
                 }
               }
             }
+          },
+          "background": {
+            "main": {
+              "value": "rgba(22, 29, 39, 0.6900)"
+            }
           }
         },
         "segmented_picker": {
@@ -3457,13 +3555,13 @@
             },
             "foreground": {
               "main": {
-                "value": "#84b5fb"
+                "value": "#f6f8fc"
               },
               "disabled": {
                 "value": "#7c828d"
               },
               "active": {
-                "value": "#6ea7f9"
+                "value": "#84b5fb"
               }
             }
           },
@@ -3676,13 +3774,13 @@
                 "value": "#f6f8fc"
               },
               "cool": {
-                "value": "#72aeff"
+                "value": "#7eaef1"
               },
               "warm": {
-                "value": "#f07171"
+                "value": "#f69897"
               },
               "equilibrium": {
-                "value": "#a084ff"
+                "value": "#9f8aee"
               }
             },
             "border": {
@@ -3692,25 +3790,25 @@
             },
             "background": {
               "gradient_0": {
-                "value": "rgba(96, 179, 255, 0.8000)"
+                "value": "#4f75ae"
               },
               "gradient_20": {
-                "value": "rgba(96, 179, 255, 0.5000)"
+                "value": "#4f75ae"
               },
               "gradient_30": {
-                "value": "rgba(96, 179, 255, 0.4000)"
+                "value": "#5a6fb8"
               },
               "gradient_50": {
-                "value": "rgba(147, 110, 255, 0.4800)"
+                "value": "#7764b9"
               },
               "gradient_70": {
-                "value": "rgba(255, 110, 112, 0.4000)"
+                "value": "#ab585c"
               },
               "gradient_80": {
-                "value": "rgba(255, 110, 112, 0.5000)"
+                "value": "#ab585c"
               },
               "gradient_100": {
-                "value": "rgba(255, 110, 112, 0.8000)"
+                "value": "#ab585c"
               }
             }
           },
@@ -4023,6 +4121,20 @@
               },
               "gradient_100": {
                 "value": "rgba(0, 0, 0, 0.0600)"
+              }
+            },
+            "text_fade": {
+              "0": {
+                "value": "rgba(8, 11, 14, 0.0000)"
+              },
+              "100": {
+                "value": "#080b0e"
+              },
+              "30": {
+                "value": "rgba(8, 11, 14, 0.3000)"
+              },
+              "70": {
+                "value": "rgba(8, 11, 14, 0.7000)"
               }
             }
           },
@@ -4453,16 +4565,27 @@
           },
           "graph": {
             "dot_matrix": {
-              "value": "rgba(255, 255, 255, 0.0600)"
+              "value": "rgba(246, 248, 252, 0.0600)"
             },
             "vertice": {
-              "value": "rgba(255, 255, 255, 0.0800)"
+              "value": "rgba(246, 248, 252, 0.0800)"
             },
             "dot": {
               "value": "rgba(255, 255, 255, 0.4800)"
             },
             "vertice_disabled": {
               "value": "rgba(255, 255, 255, 0.0600)"
+            },
+            "overlay": {
+              "gradient_25": {
+                "value": "rgba(8, 11, 14, 0.2500)"
+              },
+              "gradient_30": {
+                "value": "rgba(8, 11, 14, 0.3000)"
+              },
+              "gradient_85": {
+                "value": "rgba(8, 11, 14, 0.8500)"
+              }
             }
           }
         },
@@ -4605,7 +4728,7 @@
         "widget": {
           "background": {
             "gradient_0": {
-              "value": "#1c2531"
+              "value": "#1c2228"
             },
             "gradient_100": {
               "value": "#0e1217"
@@ -4840,6 +4963,35 @@
               "value": "rgba(190, 212, 250, 0.0800)"
             }
           }
+        },
+        "scrim": {
+          "gradient_0": {
+            "value": "rgba(8, 11, 14, 0.3500)"
+          },
+          "gradient_30": {
+            "value": "rgba(8, 11, 14, 0.0000)"
+          },
+          "gradient_70": {
+            "value": "rgba(8, 11, 14, 0.8000)"
+          },
+          "gradient_100": {
+            "value": "rgba(8, 11, 14, 0.9200)"
+          }
+        },
+        "glass_card": {
+          "background": {
+            "main": {
+              "value": "rgba(190, 212, 250, 0.0800)"
+            },
+            "secondary": {
+              "value": "rgba(49, 54, 61, 0.4800)"
+            }
+          },
+          "divider": {
+            "main": {
+              "value": "rgba(224, 232, 245, 0.1200)"
+            }
+          }
         }
       },
       "shadow": {
@@ -4851,6 +5003,9 @@
               },
               "blur": {
                 "value": "4px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           },
@@ -4861,6 +5016,9 @@
               },
               "blur": {
                 "value": "10px"
+              },
+              "x": {
+                "value": "0px"
               }
             },
             "inner-active": {
@@ -4869,6 +5027,9 @@
               },
               "blur": {
                 "value": "10px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           },
@@ -4879,6 +5040,9 @@
               },
               "blur": {
                 "value": "12px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           }
@@ -4891,6 +5055,9 @@
               },
               "blur": {
                 "value": "16px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           }
@@ -4903,6 +5070,9 @@
               },
               "blur": {
                 "value": "16px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           },
@@ -4914,6 +5084,9 @@
                 },
                 "blur": {
                   "value": "6px"
+                },
+                "x": {
+                  "value": "0px"
                 }
               }
             }
@@ -4925,6 +5098,9 @@
               },
               "blur": {
                 "value": "16px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           }
@@ -4936,6 +5112,9 @@
             },
             "blur": {
               "value": "7px"
+            },
+            "x": {
+              "value": "0px"
             }
           }
         },
@@ -4946,6 +5125,9 @@
             },
             "blur": {
               "value": "16px"
+            },
+            "x": {
+              "value": "0px"
             }
           }
         },
@@ -4957,6 +5139,9 @@
               },
               "blur": {
                 "value": "14px"
+              },
+              "x": {
+                "value": "0px"
               }
             }
           }
@@ -4966,6 +5151,12 @@
             "grabber": {
               "blur": {
                 "value": "10px"
+              },
+              "x": {
+                "value": "0px"
+              },
+              "y": {
+                "value": "0px"
               }
             }
           }
@@ -4974,6 +5165,12 @@
           "notifcation_dot": {
             "blur": {
               "value": "8px"
+            },
+            "x": {
+              "value": "0px"
+            },
+            "y": {
+              "value": "0px"
             }
           }
         }
